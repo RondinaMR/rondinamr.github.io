@@ -73,7 +73,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -83,11 +83,11 @@ author:
   name             : "Marco Rondina"
   avatar           : "profile.png"
   bio              : "PhD student at Politecnico di Torino"
-  location         : "Location"
+  location         : "Torino, Italia"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.it/citations?user=EIrYagdZze4C"
-  email            : "marco.rondina at polito.it"
+  email            : "marco.rondina@polito.it"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
