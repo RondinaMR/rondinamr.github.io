@@ -33,7 +33,7 @@ import os
 
 # In[3]:
 
-talks = pd.read_csv("../sources/talks.csv", sep="\t", header=0)
+talks = pd.read_csv("talks.tsv", sep="\t", header=0)
 talks
 
 
@@ -46,18 +46,7 @@ talks
 html_escape_table = {
     "&": "&amp;",
     '"': "&quot;",
-    "'": "&apos;",
-    "‘": "&#39;",
-    "°": "&deg;",
-    "–": "&#45;",
-    "—": "&#45;",
-    "à": "&agrave;",
-    "è": "&egrave;",
-    "é": "&eacute;",
-    "È": "&Egrave;",
-    "ì": "&igrave;",
-    "ò": "&ograve;",
-    "ù": "&ugrave;"
+    "'": "&apos;"
     }
 
 def html_escape(text):
