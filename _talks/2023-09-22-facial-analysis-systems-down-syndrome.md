@@ -1,0 +1,19 @@
+---
+title: "Facial Analysis Systems and Down Syndrome"
+collection: talks
+type: "Conference proceedings talk"
+permalink: /talks/2023-09-22-facial-analysis-systems-down-syndrome
+venue: "3rd Workshop on Bias and Fairness in AI - BIAS 2023 @ European Conference on Machine Learning and Principles and Practice of Knowledge Discovery (ECML PKDD 2023)"
+date: 2023-09-22
+location: "Torino, Italy"
+---
+
+[More information here](https://sites.google.com/view/bias2023/program)
+
+The ethical, social and legal issues surrounding facial analysis technologies have been widely debated in recent years. Key critics have argued that these technologies can perpetuate bias and discrimination, particularly against marginalized groups. We contribute to this field by reporting on the limitations of facial analysis systems with the faces of people with Down syndrome: this particularly vulnerable group has received very little attention in the literature so far. 
+
+This study involved the creation of a specific dataset of face images. An experimental group with faces of people with Down syndrome, and a control group with faces of people who are not affected by the syndrome. Two commercial tools were tested on the dataset, along three tasks: gender recognition, age prediction and face labelling. 
+
+The results show an overall lower prediction accuracy in the experimental group, and other performance differences: i) high error rates in gender recognition in the category of males with Down syndrome; ii) adults with Down syndrome can be mislabelled as children; iii) social stereotypes are propagated in both the control and experimental groups, with labels related to aesthetics more often associated with females, and labels related to education level and ability more often associated with males.
+
+These results, although limited in scope, shed new light on the biases that alter face classification when applied to faces of people with Down syndrome.  They confirm the structural limitation of the technology, which is inherently dependent on the datasets used to train the models.
