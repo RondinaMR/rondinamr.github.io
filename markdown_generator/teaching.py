@@ -73,6 +73,8 @@ for row, item in teachings.iterrows():
     md = "---\ntitle: \""   + item.title + '"\n'
     
     md += """collection: teaching"""
+
+    md += "\ntype: '" + html_escape(item.type) + "'"
     
     md += """\npermalink: /teaching/""" + html_filename
     
@@ -83,7 +85,7 @@ for row, item in teachings.iterrows():
     
     md += "\nvenue: '" + html_escape(item.venue) + "'"
 
-    md += "\nvenue: '" + html_escape(item.location) + "'"
+    md += "\nlocation: '" + html_escape(item.location) + "'"
 
     md += "\nrole: '" + html_escape(item.role) + "'"
     
