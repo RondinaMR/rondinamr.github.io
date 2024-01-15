@@ -56,13 +56,14 @@
       <details>
         <summary>Recommended citation</summary>
         <p>{{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>
+      </details>
     {% elsif post.citation %}
       <details>
         <summary>Recommended citation</summary>
         <p>{{ post.citation }}</p>
       </details>
     {% elsif post.paperurl %}
-        <p></p><a href=" {{ post.paperurl }} "><u>{{ post.paperurl }}</u></a></p>
+        <p><a href=" {{ post.paperurl }} "><u>{{ post.paperurl }}</u></a></p>
     {% endif %}
 
   </article>
