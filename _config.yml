@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Marco Rondina"
-title_separator          : "" # -
-name                     : &name "" # Marco Rondina
+title                    : "MR"
+title_separator          : " - "
+name                     : &name "Marco Rondina"
 description              : &description "PhD student at Politecnico di Torino"
 url                      : https://rondinamr.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
