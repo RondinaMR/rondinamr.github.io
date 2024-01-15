@@ -8,8 +8,8 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Marco Rondina"
-title_separator          : "-"
-name                     : &name "Marco Rondina"
+title_separator          : "" # -
+name                     : &name "" # Marco Rondina
 description              : &description "PhD student at Politecnico di Torino"
 url                      : https://rondinamr.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Marco Rondina"
-  avatar           : "mr-profile-22.jpeg"
+  avatar           : "mr-profile-22.jpg"
   bio              : "PhD student at Politecnico di Torino"
   location         : "Torino, Italia"
   employer         :
