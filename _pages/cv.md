@@ -11,30 +11,71 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Engineering, Politecnico di Torino, 2020
+* M.S. in Computer Engineering - Data Analytics, Politecnico di Torino, 2022
+* Ph.D in Control and Computer Engineering, Politecnico di Torino, 2026 (expected)
 
-Work experience
+Work Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Ph.D Student
+  * November 2022 - Present
+  * Politecnico di Torino, PhD Programme in Control and Computer Engineering - DAUIN
+  * Turin, Italy
+  * Research in "Responsible AI: from principles to industrial practices" @ Nexa Center for Internet and Society in collaboration with ClearboxAI
+* IT Technician
+  * October 2021 - April 2022
+  * Politecnico di Torino (Linux@Studenti)
+  * Turin, Italy
+  * General support for OpenScuola project, in order to provide Turin schools with computer labs based on Edubuntu
+* Web developer
+  * November 2018
+  * Studio Legale VMDLaw
+  * Turin, Italy
+  * Design and development of new website
+* Web developer
+  * October 2017
+  * Studio Legale VMDLaw
+  * Turin, Italy
+  * Design and development of new website
+* Database Analyst
+  * February 2012
+  * YourCad s.r.l.
+  * Pesaro, Italy
+  * Internship
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
+Social, Political and Institutional Experience
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* National adviser for university students
+  * October 2019 - September 2022
+  * Ministero dell'Istruzione, dell'Università e della Ricerca (MIUR, Ministery of Education, University and Research)
+  * Rome, Italy
+  * Representative in CNSU - Consiglio Nazionale Studenti Universitari (National Council of University Students)
+* President
+  * 2018 - 2021
+  * Alter.POLIS - A.P.S. - E.T.S.
+  * Turin, Italy
+  * Association executive board
+* Board member
+  * September 2015 - May 2019
+  * Politecnico di Torino
+  * Turin, Italy
+  * Representative in the Board of Governors of Politecnico di Torino
+
+[//]: # (Skills)
+
+[//]: # (======)
+
+[//]: # (* Skill 1)
+
+[//]: # (* Skill 2)
+
+[//]: # (  * Sub-skill 2.1)
+
+[//]: # (  * Sub-skill 2.2)
+
+[//]: # (  * Sub-skill 2.3)
+
+[//]: # (* Skill 3)
 
 Publications
 ======
