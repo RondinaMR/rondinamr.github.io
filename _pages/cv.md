@@ -52,7 +52,7 @@ Social, Political and Institutional Experience
   * Representative in CNSU - Consiglio Nazionale Studenti Universitari (National Council of University Students)
 * President
   * 2018 - 2021
-  * Alter.POLIS - A.P.S. - E.T.S.
+  * Alter.POLIS - A.P.S. - E.T.S. association
   * Turin, Italy
   * Association executive board
 * Board member
@@ -61,40 +61,26 @@ Social, Political and Institutional Experience
   * Turin, Italy
   * Representative in the Board of Governors of Politecnico di Torino
 
-[//]: # (Skills)
-
-[//]: # (======)
-
-[//]: # (* Skill 1)
-
-[//]: # (* Skill 2)
-
-[//]: # (  * Sub-skill 2.1)
-
-[//]: # (  * Sub-skill 2.2)
-
-[//]: # (  * Sub-skill 2.3)
-
-[//]: # (* Skill 3)
-
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Talks
 ======
-  <ul>{% for post in site.talks %}
+  <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.teaching reversed%}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+[//]: # (Service and leadership)
+
+[//]: # (======)
+
+[//]: # (* Currently signed in to 43 different slack teams)
