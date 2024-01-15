@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D student at [Nexa Center for Internet and Society](https://nexa.polito.it/), at [Department of Control and Computer Engineering](https://www.dauin.polito.it/it/) at [Politecnico di Torino](https://www.polito.it/).
+I am a Ph.D student at [Nexa Center for Internet and Society](https://nexa.polito.it/), a research center of the [Department of Control and Computer Engineering](https://www.dauin.polito.it/it/) of the [Politecnico di Torino](https://www.polito.it/).
 
 I am working with Professors [Juan Carlos De Martin](https://demartin.polito.it/) and [Antonio Vetrò](https://avetro.polito.it/).
 
