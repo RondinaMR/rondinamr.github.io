@@ -53,21 +53,19 @@ Work Experience
 
 Social, Political and Institutional Experience
 ======
-* National adviser for university students
+* CNSU member (Consiglio Nazionale Studenti Universitari / National Council of University Students)
   * October 2019 - September 2022
   * Ministero dell'Istruzione, dell'Università e della Ricerca (MIUR, Ministery of Education, University and Research)
   * Rome, Italy
-  * Representative in CNSU - Consiglio Nazionale Studenti Universitari (National Council of University Students)
 * President
   * 2018 - 2021
   * Alter.POLIS - A.P.S. - E.T.S. association
   * Turin, Italy
-  * Association executive board
 * Board member
   * September 2015 - May 2019
   * Politecnico di Torino
   * Turin, Italy
-  * Representative in the Board of Governors of Politecnico di Torino
+  * Representative on the Board of Governors of the Politecnico di Torino
 
 Publications
 ======
