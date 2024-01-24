@@ -7,6 +7,7 @@ date: 2023-09-05
 venue: '22nd Portuguese Conference on Artificial Intelligence (EPIA 2023)'
 paperurl: 'https://hdl.handle.net/11583/2981538'
 citation: 'Completeness of Datasets Documentation on ML/AI Repositories: An Empirical Investigation / Rondina, Marco; Vetro&apos;, Antonio; De Martin, Juan Carlos. - 14115:(2023), pp. 79-91. (Intervento presentato al convegno 22nd Portuguese Conference on Artificial Intelligence tenutosi a Horta, Faial Island, Azores nel September 5 – September 8, 2023) [10.1007/978-3-031-49008-8_7].'
+authors: 'Marco Rondina, Antonio Vetro’, Juan Carlos De Martin'
 ---
 
 <a href='https://hdl.handle.net/11583/2981538'>Download paper here</a>
