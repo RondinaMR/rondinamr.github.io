@@ -47,7 +47,7 @@ Work Experience
 
 Social, Political and Institutional Experience
 ======
-* CNSU member (Consiglio Nazionale Studenti Universitari / National Council of University Students)
+* Member of the National Council of University Students (CNSU, Consiglio Nazionale Studenti Universitari)
   <ul class="archive__item-excerpt">
     <li>October 2019 - September 2022</li>
     <li>Ministero dell'Istruzione, dell'Università e della Ricerca (MIUR, Ministery of Education, University and Research)</li>
@@ -59,12 +59,11 @@ Social, Political and Institutional Experience
     <li>Alter.POLIS - A.P.S. - E.T.S. association</li>
     <li>Turin, Italy</li>
   </ul>
-* Board member
+* Member of the Board of Governors
   <ul class="archive__item-excerpt">
     <li>September 2015 - May 2019</li>
     <li>Politecnico di Torino</li>
     <li>Turin, Italy</li>
-    <li>Representative on the Board of Governors of the Politecnico di Torino</li>
   </ul>
 
 Publications
