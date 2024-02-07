@@ -81,7 +81,7 @@ Talks
 Teaching
 ======
   <ul>{% for post in site.teaching reversed%}
-    {% include archive-single.html %}
+    {% include archive-single-teaching-cv.html %}
   {% endfor %}</ul>
   
 [//]: # (Service and leadership)
