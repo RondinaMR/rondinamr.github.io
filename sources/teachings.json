@@ -1,0 +1,54 @@
+{
+  "courses": [
+    {
+      "title": "Politica e tecnica (Grandi Sfide – Digitale)",
+      "type": "Undergraduate course",
+      "venue": "Politecnico di Torino",
+      "location": "Torino, Italy",
+      "description": "",
+      "url_slug": "politica-e-tecnica",
+      "editions": [
+        {
+          "date": "2023-03-01",
+          "academic-year": "2022-2023",
+          "role": "Teaching assistant"
+        },
+        {
+          "date": "2024-03-01",
+          "academic-year": "2023-2024",
+          "role": "Teaching assistant"
+        }
+      ]
+    },
+    {
+      "title": "Sistemi Informativi Aziendali",
+      "type": "Graduate course",
+      "venue": "Politecnico di Torino",
+      "location": "Torino, Italy",
+      "description": "",
+      "url_slug": "sistemi-informativi-aziendali",
+      "editions": [
+        {
+          "date": "2023-10-01",
+          "academic-year": "2023-2024",
+          "role": "Teaching assistant"
+        }
+      ]
+    },
+    {
+      "title": "Data Ethics and Data Protection",
+      "type": "Graduate course",
+      "venue": "Politecnico di Torino",
+      "location": "Torino, Italy",
+      "description": "",
+      "url_slug": "data-ethics-data-protection",
+      "editions": [
+        {
+          "date": "2024-03-01",
+          "academic-year": "2023-2024",
+          "role": "Teaching assistant"
+        }
+      ]
+    }
+  ]
+}

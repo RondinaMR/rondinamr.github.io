@@ -33,11 +33,11 @@ import pandas as pd
 # I found it important to put this data in a tab-separated values format, because there are a lot of commas in this kind of data and comma-separated values can get messed up. However, you can modify the import statement, as pandas also has read_excel(), read_json(), and others.
 
 # In[3]:
-
-teachings = pd.read_csv("../sources/teachings.csv", sep="\t", header=0)
-teachings
-
-
+# teachings = pd.read_csv("../sources/teachings.csv", sep="\t", header=0)
+import json
+with open("sources/teachings.json", 'r') as f:
+    teachings = json.load(f)
+teachings = teachings['courses']
 # ## Escape special characters
 # 
 # YAML is very picky about how it takes a valid string, so we are replacing single and double quotes (and ampersands) with their HTML encoded equivilents. This makes them look not so readable in raw format, but they are parsed and rendered nicely.
@@ -62,53 +62,41 @@ def html_escape(text):
 # In[5]:
 
 import os
-for row, item in teachings.iterrows():
-    year = item.date[:4]
-    month = item.date[5:7]
-    md_filename = year + "-" + month + "-" + item.url_slug + ".md"
-    html_filename = year + "-" + month + "-" + item.url_slug
+import json
+
+# open the
+
+for course in teachings:
+    md_filename = course['url_slug'] + ".md"
 
     ## YAML variables
-    
-    md = "---\ntitle: \""   + item.title + '"\n'
-    
+    md = "---\ntitle: \"" + course['title'] + '"\n'
     md += """collection: teaching"""
-
-    md += "\ntype: '" + html_escape(item.type) + "'"
-    
-    md += """\npermalink: /teaching/""" + html_filename
-    
+    md += "\ntype: '" + html_escape(course['type']) + "'"
+    md += """\npermalink: /teaching/""" + course['url_slug']
     # if len(str(item.excerpt)) > 5:
     #     md += "\ndescription: '" + html_escape(item.description) + "'"
+    md += "\nvenue: '" + html_escape(course['venue']) + "'"
+    md += "\nlocation: '" + html_escape(course['location']) + "'"
     
-    md += "\ndate: " + str(item.date)
-    
-    md += "\nvenue: '" + html_escape(item.venue) + "'"
+    course['editions'] = sorted(course['editions'], key=lambda e: e['date'], reverse=True)
+    md += "\ndate: " + course['editions'][0]["date"]
+    md += "\nrole: '"+ html_escape(course['editions'][0]["role"]) + "'"
+    md += "\n---"    
 
-    md += "\nlocation: '" + html_escape(item.location) + "'"
-
-    md += "\nrole: '" + html_escape(item.role) + "'"
-    
-    # if len(str(item.paper_url)) > 5:
-    #     md += "\npaperurl: '" + item.paper_url + "'"
-    
-    # md += "\ncitation: '" + html_escape(item.citation) + "'"
-    
-    md += "\n---"
-    
     ## Markdown description for individual page
-    
-    # if len(str(item.paper_url)) > 5:
-    #     md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n"
-        
-    if len(str(item.description)) > 5:
-        md += "\n\n" + html_escape(item.description) + "\n"
-        
-    # md += "\nRecommended citation: " + item.citation
-    
+    md += "\n\n"
+    if len(str(course['description'])) > 5:
+        md += html_escape(course['description']) + "\n"
+    for edition in course['editions']:
+        md += "\n* " + str(edition['academic-year']) + ", " + html_escape(edition['role'])
+
     md_filename = os.path.basename(md_filename)
-       
-    with open("../_teaching/" + md_filename, 'w', encoding='utf-8') as f:
+    with open("_teaching/" + md_filename, 'w', encoding='utf-8') as f:
         f.write(md)
+
+
+    
+
 
 
