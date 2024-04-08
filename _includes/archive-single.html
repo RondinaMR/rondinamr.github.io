@@ -39,7 +39,7 @@
     {% endif %}
 
         {% if post.collection == 'teaching' %}
-          <p class="archive__item-excerpt"> {{post.role}}, {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p class="archive__item-excerpt"> {{post.role}}, {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.academic-year }} </p>
         {% elsif post.collection == 'publications' %}
           <p class="archive__item-excerpt">{{ post.authors }}</p>
           <p class="archive__item-excerpt">Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>

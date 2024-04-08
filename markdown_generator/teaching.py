@@ -82,6 +82,7 @@ for course in teachings:
     course['editions'] = sorted(course['editions'], key=lambda e: e['date'], reverse=True)
     md += "\ndate: " + course['editions'][0]["date"]
     md += "\nrole: '"+ html_escape(course['editions'][0]["role"]) + "'"
+    md += "\nacademic-year: '" + html_escape(course['editions'][0]['academic-year']) + "'"
     md += "\n---"    
 
     ## Markdown description for individual page
