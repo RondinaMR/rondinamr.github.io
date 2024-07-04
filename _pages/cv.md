@@ -27,22 +27,18 @@ Work Experience
 * IT Technician
   <ul class="archive__item-excerpt">
     <li>October 2021 - April 2022</li>
-    <li>Politecnico di Torino (Linux@Studenti)</li>
   </ul>
 * Web developer
   <ul class="archive__item-excerpt">
     <li>November 2018</li>
-    <li>Studio Legale VMDLaw</li>
   </ul>
 * Web developer
   <ul class="archive__item-excerpt">
     <li>October 2017</li>
-    <li>Studio Legale VMDLaw</li>
   </ul>
 * Database Analyst
   <ul class="archive__item-excerpt">
     <li>February 2012</li>
-    <li>YourCad s.r.l.</li>
   </ul>
 
 Social, Political and Institutional Experience
