@@ -63,5 +63,9 @@
         <p><a href=" {{ post.paperurl }} "><u>{{ post.paperurl }}</u></a></p>
     {% endif %}
 
+    {% if page.pdfurl %}
+      <a href="{{ page.pdfurl }}">Download paper here</a>
+    {% endif %}
+
   </article>
 </div>
