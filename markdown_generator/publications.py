@@ -86,6 +86,9 @@ for row, item in publications.iterrows():
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
     
+    if len(str(item.pdf_url)) > 5:
+        md += "\npdfurl: '" + item.pdf_url + "'"
+    
     md += "\ncitation: '" + html_escape(item.citation) + "'"
 
     md += "\nauthors: '" + html_escape(item.authors) + "'"
@@ -93,8 +96,9 @@ for row, item in publications.iterrows():
     md += "\n---"
     
     ## Markdown description for individual page
-    
-    if len(str(item.paper_url)) > 5:
+    if len(str(item.pdf_url)) > 5:
+        md += "\n\n<a href='" + item.pdf_url + "'>Download paper here</a>\n" 
+    elif len(str(item.paper_url)) > 5:
         md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
         
     if len(str(item.excerpt)) > 5:
