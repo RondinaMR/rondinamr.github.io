@@ -67,34 +67,36 @@ import json
 # open the
 
 for course in teachings:
-    md_filename = course['url_slug'] + ".md"
-
-    ## YAML variables
-    md = "---\ntitle: \"" + course['title'] + '"\n'
-    md += """collection: teaching"""
-    md += "\ntype: '" + html_escape(course['type']) + "'"
-    md += """\npermalink: /teaching/""" + course['url_slug']
-    # if len(str(item.excerpt)) > 5:
-    #     md += "\ndescription: '" + html_escape(item.description) + "'"
-    md += "\nvenue: '" + html_escape(course['venue']) + "'"
-    md += "\nlocation: '" + html_escape(course['location']) + "'"
-    
     course['editions'] = sorted(course['editions'], key=lambda e: e['date'], reverse=True)
-    md += "\ndate: " + course['editions'][0]["date"]
-    md += "\nrole: '"+ html_escape(course['editions'][0]["role"]) + "'"
-    md += "\nacademic-year: '" + html_escape(course['editions'][0]['academic-year']) + "'"
-    md += "\n---"    
-
-    ## Markdown description for individual page
-    md += "\n\n"
-    if len(str(course['description'])) > 5:
-        md += html_escape(course['description']) + "\n"
     for edition in course['editions']:
-        md += "\n* " + str(edition['academic-year']) + ", " + html_escape(edition['role'])
+        md_filename = f"{course['url_slug']}-{edition['academic-year']}.md"
 
-    md_filename = os.path.basename(md_filename)
-    with open("_teaching/" + md_filename, 'w', encoding='utf-8') as f:
-        f.write(md)
+        ## YAML variables
+        md = "---\ntitle: \"" + course['title'] + '"\n'
+        md += """collection: teaching"""
+        md += "\ntype: '" + html_escape(course['type']) + "'"
+        md += """\npermalink: /teaching/""" + course['url_slug'] + "-" + edition['academic-year']
+        # if len(str(item.excerpt)) > 5:
+        #     md += "\ndescription: '" + html_escape(item.description) + "'"
+        md += "\nvenue: '" + html_escape(course['venue']) + "'"
+        md += "\nlocation: '" + html_escape(course['location']) + "'"
+        
+        
+        md += "\ndate: " + edition["date"]
+        md += "\nrole: '"+ html_escape(edition["role"]) + "'"
+        md += "\nacademic-year: '" + html_escape(edition['academic-year']) + "'"
+        md += "\n---"    
+
+        ## Markdown description for individual page
+        md += "\n\n"
+        if len(str(course['description'])) > 5:
+            md += html_escape(course['description']) + "\n"
+        # for edition in course['editions']:
+        #     md += "\n* " + str(edition['academic-year']) + ", " + html_escape(edition['role'])
+
+        md_filename = os.path.basename(md_filename)
+        with open("_teaching/" + md_filename, 'w', encoding='utf-8') as f:
+            f.write(md)
 
 
     
