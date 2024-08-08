@@ -6,7 +6,17 @@ author_profile: true
 ---
 
 {% include base_path %}
-
+<h2>Current Courses</h2>
+{% assign academicYears = site.teaching | map: 'academic-year' %}
+{% assign maxAcademicYear = academicYears | sort | last %}
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+  {% if post.academic-year == maxAcademicYear %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+<h2>Past Courses</h2>
+{% for post in site.teaching reversed %}
+  {% if post.academic-year != maxAcademicYear %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
