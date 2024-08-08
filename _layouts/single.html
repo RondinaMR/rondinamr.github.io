@@ -48,6 +48,10 @@ layout: default
         {% elsif page.citation %}
           <p>Recommended citation: {{ page.citation }} </p>
         {% endif %}
+
+        {% if page.pdfurl %}
+          <a href="{{ page.pdfurl }}">Download paper here</a>
+        {% endif %}
     
         </header>
       {% endunless %}
