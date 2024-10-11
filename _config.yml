@@ -192,9 +192,9 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
+  # _posts (english)
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -203,6 +203,21 @@ defaults:
       comments: true
       share: true
       related: true
+      lang: en
+      permalink: /posts/:title/
+  # _posts (italian)
+  - scope:
+      path: "it/_posts"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      lang: it
+      permalink: /it/posts/:title/
   # _pages
   - scope:
       path: ""
@@ -256,8 +271,9 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: Europe/Rome # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+posts_per_page: 8
+post_navigator_visibility: false
 
 # Plugins
 plugins:

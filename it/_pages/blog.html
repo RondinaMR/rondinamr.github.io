@@ -1,0 +1,18 @@
+---
+layout: archive
+permalink: /it/blog/
+title: "Blog 🇮🇹"
+author_profile: true
+redirect_from:
+  - /blog-it/
+  - /it-blog/
+lang: it
+translated: true
+---
+
+{% include base_path %}
+{% for post in site.posts %}
+  {% if post.lang == 'it' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}

@@ -6,6 +6,8 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+translated: true
+lang: en
 ---
 
 I am a Ph.D student at [Nexa Center for Internet and Society](https://nexa.polito.it/), a research center of the [Department of Control and Computer Engineering](https://www.dauin.polito.it/it/) of the [Politecnico di Torino](https://www.polito.it/).

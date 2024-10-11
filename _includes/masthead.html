@@ -1,4 +1,5 @@
 {% include base_path %}
+{% include multilang/get-lang-variables %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -7,14 +8,31 @@
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
+          {% if page.lang == 'it'%}
+            {% assign navbarlang = site.data.navigation_it.main %}
+          {% else %}
+            {% assign navbarlang = site.data.navigation.main %}
+          {% endif %}
+          {% for link in navbarlang %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
+          {% endfor %}  
+          {% if page.translated == true %}
+            {% if page.lang == 'it' %}
+              <li class="masthead__menu-item">
+                  <a href="{{ target_url_en }}" title="Page in English">🇬🇧</a>
+              </li>
+            {% endif %}
+            {% if page.lang == 'en' %}
+              <li class="masthead__menu-item">
+                  <a href="{{ target_url_it }}" title="Page in Italian">🇮🇹</a>
+              </li>
+            {% endif %}
+          {% endif %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
