@@ -33,7 +33,7 @@ import os
 
 # In[3]:
 
-talks = pd.read_csv("../sources/talks.csv", sep="\t", header=0)
+talks = pd.read_csv("sources/talks.csv", sep=";", header=0)
 talks
 
 
@@ -65,7 +65,7 @@ def html_escape(text):
 loc_dict = {}
 
 for row, item in talks.iterrows():
-    
+    print(item)
     md_filename = str(item.date) + "-" + item.url_slug + ".md"
     html_filename = str(item.date) + "-" + item.url_slug 
     year = item.date[:4]
@@ -88,22 +88,25 @@ for row, item in talks.iterrows():
     
     if len(str(item.location)) > 3:
         md += 'location: "' + str(item.location) + '"\n'
+    
+    if len(str(item.talk_url)) > 3:
+        md += "link: " + item.talk_url + "\n"
            
     md += "---\n"
     
     
-    if len(str(item.talk_url)) > 3:
-        md += "\n[More information here](" + item.talk_url + ")\n" 
+    # if len(str(item.talk_url)) > 3:
+        # md += "\n[More information here](" + item.talk_url + ")\n" 
         
     
-    if len(str(item.description)) > 3:
-        md += "\n" + html_escape(item.description) + "\n"
+    # if len(str(item.description)) > 3:
+    #     md += "\n" + html_escape(item.description) + "\n"
         
         
     md_filename = os.path.basename(md_filename)
     #print(md)
     
-    with open("../_talks/" + md_filename, 'w', encoding='utf-8') as f:
+    with open("_talks/" + md_filename, 'w', encoding='utf-8') as f:
         f.write(md)
 
 
