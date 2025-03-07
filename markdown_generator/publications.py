@@ -34,7 +34,7 @@ import pandas as pd
 
 # In[3]:
 
-publications = pd.read_csv("../sources/publications.csv", sep="\t", header=0)
+publications = pd.read_csv("sources/publications.csv", sep="\t", header=0)
 publications
 
 
@@ -93,22 +93,26 @@ for row, item in publications.iterrows():
 
     md += "\nauthors: '" + html_escape(item.authors) + "'"
     
-    md += "\n---"
+    md += "\n---\n"
     
     ## Markdown description for individual page
     # if len(str(item.pdf_url)) > 5:
     #     md += "\n\n<a href='" + item.pdf_url + "'>Download paper here</a>\n" 
     # elif len(str(item.paper_url)) > 5:
     #     md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
-        
+
+    if len(str(item.image)) > 3:
+        md += f"<p align=\"center\"><img src=\"{item.image}\" alt=\"{item.title}\"></p>\n"
+
     if len(str(item.excerpt)) > 5:
+        md += "\n<h2>Abstract</h2>\n"
         md += "\n" + html_escape(item.excerpt) + "\n"
         
     # md += "\nRecommended citation: " + item.citation
     
     md_filename = os.path.basename(md_filename)
        
-    with open("../_publications/" + md_filename, 'w', encoding='utf-8') as f:
+    with open("_publications/" + md_filename, 'w', encoding='utf-8') as f:
         f.write(md)
 
 
