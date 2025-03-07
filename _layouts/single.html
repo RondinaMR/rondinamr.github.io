@@ -48,13 +48,13 @@ layout: default
         
              
         {% if page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
+          <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}">{{ page.paperurl }}</a></p>
         {% elsif page.citation %}
           <p>Recommended citation: {{ page.citation }} </p>
         {% endif %}
 
         {% if page.pdfurl %}
-          <p><a href="{{ page.pdfurl }}">Download paper here</a></p>
+          <p><a href="{{ page.pdfurl }}" class="btn btn--info">download</a></p>
         {% endif %}
     
         </header>
