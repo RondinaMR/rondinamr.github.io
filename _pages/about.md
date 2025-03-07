@@ -14,4 +14,4 @@ I am working with Professors [Juan Carlos De Martin](https://demartin.polito.it/
 
 I study data fairness in the field of Responsible AI. My research focuses on exploring data documentation, data quality and data ethics. My overarching goal    is to investigate and address algorithmic discriminations.
 
-I'm currently a visiting fellow at the [Data, Algorithmic Systems and Ethics](https://www.weizenbaum-institut.de/en/research/digital-technologies-in-society/data-algorithmic-systems-and-ethics/) Research Group at the [Weizenbaum Institute](https://www.weizenbaum-institut.de/en/) (Technische Universität Berlin).
+🇩🇪 I'm currently a visiting fellow at the [Data, Algorithmic Systems and Ethics](https://www.weizenbaum-institut.de/en/research/digital-technologies-in-society/data-algorithmic-systems-and-ethics/) Research Group at the [Weizenbaum Institute](https://www.weizenbaum-institut.de/en/) (Technische Universität Berlin).
