@@ -17,32 +17,17 @@
 # - `url_slug` will be the descriptive part of the .md file and the permalink URL for the page about the paper. The .md file will be `YYYY-MM-DD-[url_slug].md` and the permalink will be `https://[yourdomain]/publications/YYYY-MM-DD-[url_slug]`
 
 
-# ## Import pandas
-# 
-# We are using the very handy pandas library for dataframes.
-
-# In[2]:
-
 import pandas as pd
+import json
 
-
-# ## Import TSV
-# 
-# Pandas makes this easy with the read_csv function. We are using a TSV, so we specify the separator as a tab, or `\t`.
-# 
-# I found it important to put this data in a tab-separated values format, because there are a lot of commas in this kind of data and comma-separated values can get messed up. However, you can modify the import statement, as pandas also has read_excel(), read_json(), and others.
-
-# In[3]:
-
-publications = pd.read_csv("sources/publications.csv", sep="\t", header=0)
-publications
-
+# publications = pd.read_csv("sources/publications.csv", sep="\t", header=0)
+with open("sources/publications.json", 'r') as f:
+    publications = json.load(f)
+publications = publications['publications']
 
 # ## Escape special characters
 # 
 # YAML is very picky about how it takes a valid string, so we are replacing single and double quotes (and ampersands) with their HTML encoded equivilents. This makes them look not so readable in raw format, but they are parsed and rendered nicely.
-
-# In[4]:
 
 html_escape_table = {
     "&": "&amp;",
@@ -59,56 +44,54 @@ def html_escape(text):
 # 
 # This is where the heavy lifting is done. This loops through all the rows in the TSV dataframe, then starts to concatentate a big string (```md```) that contains the markdown for each type. It does the YAML metadata first, then does the description for the individual page. If you don't want something to appear (like the "Recommended citation")
 
-# In[5]:
-
 import os
-for row, item in publications.iterrows():
-    
-    md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
-    html_filename = str(item.pub_date) + "-" + item.url_slug
-    year = item.pub_date[:4]
+
+for item in publications:
+    md_filename = str(item["pub_date"]) + "-" + item["url_slug"] + ".md"
+    html_filename = str(item["pub_date"]) + "-" + item["url_slug"]
+    year = item["pub_date"][:4]
     
     ## YAML variables
     
-    md = "---\ntitle: \""   + item.title + '"\n'
+    md = "---\ntitle: \""   + item["title"] + '"\n'
     
     md += """collection: publications"""
     
     md += """\npermalink: /publication/""" + html_filename
     
-    if len(str(item.excerpt)) > 5:
-        md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
+    if len(str(item["excerpt"])) > 5:
+        md += "\nexcerpt: '" + html_escape(item["excerpt"]) + "'"
     
-    md += "\ndate: " + str(item.pub_date) 
+    md += "\ndate: " + str(item["pub_date"]) 
     
-    md += "\nvenue: '" + html_escape(item.venue) + "'"
+    md += "\nvenue: '" + html_escape(item["venue"]) + "'"
     
-    if len(str(item.paper_url)) > 5:
-        md += "\npaperurl: '" + item.paper_url + "'"
+    if len(str(item["paper_url"])) > 5:
+        md += "\npaperurl: '" + item["paper_url"] + "'"
     
-    if len(str(item.pdf_url)) > 5:
-        md += "\npdfurl: '" + item.pdf_url + "'"
+    if len(str(item["pdf_url"])) > 5:
+        md += "\npdfurl: '" + item["pdf_url"] + "'"
     
-    md += "\ncitation: '" + html_escape(item.citation) + "'"
+    md += "\ncitation: '" + html_escape(item["citation"]) + "'"
 
-    md += "\nauthors: '" + html_escape(item.authors) + "'"
+    md += "\nauthors: '" + html_escape(item["authors"]) + "'"
     
     md += "\n---\n"
     
     ## Markdown description for individual page
-    # if len(str(item.pdf_url)) > 5:
-    #     md += "\n\n<a href='" + item.pdf_url + "'>Download paper here</a>\n" 
-    # elif len(str(item.paper_url)) > 5:
-    #     md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
+    # if len(str(item["pdf_url"])) > 5:
+    #     md += "\n\n<a href='" + item["pdf_url"] + "'>Download paper here</a>\n" 
+    # elif len(str(item["paper_url"])) > 5:
+    #     md += "\n\n<a href='" + item["paper_url"] + "'>Download paper here</a>\n" 
 
-    if len(str(item.image)) > 3:
-        md += f"<p align=\"center\"><img src=\"{item.image}\" alt=\"{item.title}\"></p>\n"
+    if len(str(item["image"])) > 3:
+        md += f"<p align=\"center\"><img src=\"{item['image']}\" alt=\"{item['title']}\"></p>\n"
 
-    if len(str(item.excerpt)) > 5:
+    if len(str(item["excerpt"])) > 5:
         md += "\n<h2>Abstract</h2>\n"
-        md += "\n" + html_escape(item.excerpt) + "\n"
+        md += "\n" + html_escape(item["excerpt"]) + "\n"
         
-    # md += "\nRecommended citation: " + item.citation
+    # md += "\nRecommended citation: " + item["citation"]
     
     md_filename = os.path.basename(md_filename)
        
