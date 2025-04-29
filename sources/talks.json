@@ -1,0 +1,76 @@
+{
+    "talks": [
+        {
+          "title": "100° Nexa Lunch Seminar. Produzione etica dei dataset per l'intelligenza artificiale: il ruolo della documentazione",
+          "type": "Talk",
+          "url_slug": "nexa-lunch-100-etica-dataset-documentazione",
+          "venue": "Nexa Center for Internet & Society",
+          "date": "2022-09-28",
+          "location": "Torino, Italy",
+          "talk_url": "https://nexa.polito.it/lunch-100"
+        },
+        {
+          "title": "Completeness of datasets documentation on ML/AI repositories: an empirical investigation",
+          "type": "Conference proceedings talk",
+          "url_slug": "completeness-dataset-documentation-investigation",
+          "venue": "22nd Portuguese Conference on Artificial Intelligence (EPIA23)",
+          "date": "2023-09-07",
+          "location": "Horta, Faial Island, Azores, PT",
+          "talk_url": "https://epia2023.inesctec.pt/?page_id=1782"
+        },
+        {
+          "title": "Facial Analysis Systems and Down Syndrome",
+          "type": "Conference proceedings talk",
+          "url_slug": "facial-analysis-systems-down-syndrome",
+          "venue": "3rd Workshop on Bias and Fairness in AI - BIAS 2023 - European Conference on Machine Learning and Principles and Practice of Knowledge Discovery (ECML PKDD 2023)",
+          "date": "2023-09-22",
+          "location": "Torino, Italy",
+          "talk_url": "https://sites.google.com/view/bias2023/program"
+        },
+        {
+          "title": "Testing software for non-discrimination: an updated and extended audit in the Italian car insurance domain",
+          "type": "Conference proceedings talk",
+          "url_slug": "faiema-2024-testing-discrimination",
+          "venue": "2nd International Conference on Frontiers of Artificial Intelligence, Ethics, and Multidisciplinary Applications (FAIEMA24)",
+          "date": "2024-10-01",
+          "location": "Athens, Greece",
+          "talk_url": "https://www.faiema.org/"
+        },
+        {
+          "title": "Responsible development and use of AI: a metric-based framework for enabling empirical evaluations",
+          "type": "Student symposium talk",
+          "url_slug": "idoese-2024-responsibe-ai",
+          "venue": "International Doctoral Symposium on Empirical Software Engineering (IDoESE 2024)",
+          "date": "2024-10-23",
+          "location": "Barcelona, Spain",
+          "talk_url": "https://conf.researchr.org/track/esem-2024/esem-2024-doctoral-symposium"
+        },
+        {
+          "title": "Intelligenza artificiale: dati, lavoro e discriminazioni",
+          "type": "Talk",
+          "url_slug": "intelligenza-artificiale-dati-lavoro-discriminazioni-carifano",
+          "venue": "Fondazione Carifano",
+          "date": "2025-01-18",
+          "location": "Fano, Italy",
+          "talk_url": null
+        },
+        {
+          "title": "Measuring datasets: quality, balance, documentation. How to detect risks in the AI pipeline",
+          "type": "Internal seminar",
+          "url_slug": "measuring-datasets-risks-ai-pipeline",
+          "venue": "Joint Research Center of the European Commission",
+          "date": "2025-02-18",
+          "location": "Ispra, Italy",
+          "talk_url": null
+        },
+        {
+            "title": "Intelligenza artificiale: dati, lavoro e discriminazioni",
+            "type": "Talk",
+            "url_slug": "intelligenza-artificiale-dati-lavoro-discriminazioni-liceonolfiapolloni",
+            "venue": "Assemblea d'Istituto Liceo Nolfi-Apolloni",
+            "date": "2025-04-28",
+            "location": "Fano, Italy",
+            "talk_url": null
+          }
+    ]
+}
