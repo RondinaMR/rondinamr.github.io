@@ -5,5 +5,5 @@ type: "Internal seminar"
 permalink: /talks/2025-02-18-measuring-datasets-risks-ai-pipeline
 venue: "Joint Research Center of the European Commission"
 date: 2025-02-18
-location: " Ispra, Italy"
+location: "Ispra, Italy"
 ---
