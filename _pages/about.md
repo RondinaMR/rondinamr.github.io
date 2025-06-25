@@ -14,4 +14,4 @@ I am working with Professors [Juan Carlos De Martin](https://demartin.polito.it/
 
 I study data fairness in the field of Responsible AI. My research focuses on exploring data documentation, data quality and data ethics. My overarching goal    is to investigate and address algorithmic discriminations.
 
-🇩🇪 I'm currently a [guest researcher](https://www.weizenbaum-institut.de/en/portrait/p/marco-rondina/) at the [Data, Algorithmic Systems and Ethics](https://www.weizenbaum-institut.de/en/research/digital-technologies-in-society/data-algorithmic-systems-and-ethics/) Research Group at the [Weizenbaum Institute](https://www.weizenbaum-institut.de/en/) (Technische Universität Berlin).
+(25/06/2025) Just published in the Journal of Data and Information Quality: [Experience: Bridging Data Measurement and Ethical Challenges with Extended Data Briefs](https://dl.acm.org/doi/10.1145/3726872)
