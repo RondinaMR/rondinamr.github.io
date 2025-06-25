@@ -24,6 +24,11 @@ Work Experience
     <li>March 2023 - Present</li>
     <li>Politecnico di Torino</li>
   </ul>
+* [Guest Researcher](https://www.weizenbaum-institut.de/en/portrait/p/marco-rondina/)
+<ul class="archive__item-excerpt">
+    <li>March 2025 - May 2025</li>
+    <li>Weizenbaum Institute - Technische Universität Berlin - [Data, Algorithmic Systems and Ethics](https://www.weizenbaum-institut.de/en/research/digital-technologies-in-society/data-algorithmic-systems-and-ethics/)</li>
+  </ul>
 * IT Technician
   <ul class="archive__item-excerpt">
     <li>October 2021 - April 2022</li>
