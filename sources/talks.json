@@ -64,13 +64,22 @@
           "talk_url": null
         },
         {
-            "title": "Intelligenza artificiale: dati, lavoro e discriminazioni",
-            "type": "Talk",
-            "url_slug": "intelligenza-artificiale-dati-lavoro-discriminazioni-liceonolfiapolloni",
-            "venue": "Assemblea d'Istituto Liceo Nolfi-Apolloni",
-            "date": "2025-04-28",
-            "location": "Fano, Italy",
-            "talk_url": null
-          }
+          "title": "Intelligenza artificiale: dati, lavoro e discriminazioni",
+          "type": "Talk",
+          "url_slug": "intelligenza-artificiale-dati-lavoro-discriminazioni-liceonolfiapolloni",
+          "venue": "Assemblea d'Istituto Liceo Nolfi-Apolloni",
+          "date": "2025-04-28",
+          "location": "Fano, Italy",
+          "talk_url": null
+        },
+        {
+          "title": "An Empirical Investigation of Gender Stereotype Representation in Large Language Models: The Italian Case",
+          "type": "Talk",
+            "url_slug": "empirical-investigation-gender-stereotype-representation-llms-italian-case",
+          "venue": "5th Workshop on Bias and Fairness in AI - BIAS 2025 - European Conference on Machine Learning and Principles and Practice of Knowledge Discovery (ECML PKDD 2025)",
+          "date": "2025-09-15",
+          "location": "Porto, Portugal",
+          "talk_url": "https://sites.google.com/view/bias-2025-ecmlpkdd/program"
+        }
     ]
 }
