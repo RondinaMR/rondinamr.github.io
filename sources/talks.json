@@ -52,7 +52,7 @@
           "venue": "Fondazione Carifano",
           "date": "2025-01-18",
           "location": "Fano, Italy",
-          "talk_url": null
+          "talk_url": "https://www.fondazionecarifano.it/ciclo-di-incontri-sullintelligenza-artificiale-il-primo-incontro-con-ling-marco-rondina/"
         },
         {
           "title": "Measuring datasets: quality, balance, documentation. How to detect risks in the AI pipeline",
