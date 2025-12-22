@@ -66,6 +66,9 @@ for item in publications:
     
     md += "\nvenue: '" + html_escape(item["venue"]) + "'"
     
+    if len(str(item["preprint_url"])) > 5:
+        md += "\npreprinturl: '" + item["preprint_url"] + "'"
+
     if len(str(item["paper_url"])) > 5:
         md += "\npaperurl: '" + item["paper_url"] + "'"
     
