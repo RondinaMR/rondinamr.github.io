@@ -37,10 +37,12 @@
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i>{{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}}</p>{% endif %}
-    {% if post.link %}
-      <p class="archive__item-excerpt"><a href="{{ post.link }}" class="btn btn--info">info</a></p>
-    {% endif %}
+    <p class="archive__item-excerpt" itemprop="description">
+      {% if post.venue %}{{post.type}}, {{ post.venue }},  {{post.location}}{% endif %}
+      {% if post.link %}
+        <a href="{{ post.link }}" class="btn btn--info">info</a>
+      {% endif %}
+    </p>
     
 <!--    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}-->
   </article>
