@@ -47,14 +47,16 @@ layout: default
         {% endif %}
         
              
-        {% if page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}">{{ page.paperurl }}</a></p>
-        {% elsif page.citation %}
+        {% if page.citation %}
           <p>Recommended citation: {{ page.citation }} </p>
         {% endif %}
 
-        {% if page.pdfurl %}
-          <p><a href="{{ page.pdfurl }}" class="btn btn--info">download</a></p>
+        {% if page.pdfurl or page.preprinturl or page.paperurl %}
+          <p>
+            {% if page.preprinturl %}<a href="{{ page.preprinturl }}" class="btn btn--info">preprint</a>{% endif %}
+            {% if page.pdfurl %}<a href="{{ page.pdfurl }}" class="btn btn--info">download</a>{% endif %}
+            {% if page.paperurl %}<a href="{{ page.paperurl }}" class="btn btn--info">link</a>{% endif %}
+          </p>
         {% endif %}
     
         </header>
