@@ -15,7 +15,7 @@
     @include container;
     @include clearfix;
     padding: 1em 1em 1em;
-    font-family: $sans-serif-narrow;
+    font-family: $monospace;//$sans-serif-narrow;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -27,6 +27,12 @@
 
     a {
       text-decoration: none;
+      
+      &.active {
+        font-weight: bold;
+        color: $text-color;//$primary-color;
+        border-bottom: 2px solid $primary-color;
+      }
     }
   }
 }
