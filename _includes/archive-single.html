@@ -45,17 +45,18 @@
         {% if post.collection == 'teaching' %}
           <p class="archive__item-excerpt">{{post.role}}, {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.academic-year }} </p>
         {% elsif post.collection == 'publications' %}
+        <!-- SINGLE PUBLICATION ITEM -->
           <p class="archive__item-excerpt">
             {{ post.authors }}<br>
             Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}<br>
             {% if post.preprinturl %}
-              <a href="{{ post.preprinturl }}" class="btn btn--info">preprint</a>
+              <a href="{{ post.preprinturl }}" class="btn btn--info">preprint &#8595;</a>
             {% endif %}
             {% if post.pdfurl %}
-              <a href="{{ post.pdfurl }}" class="btn btn--info">download</a>
+              <a href="{{ post.pdfurl }}" class="btn btn--info">postprint &#8595;</a>
             {% endif %}
             {% if post.paperurl %}
-              <a href="{{ post.paperurl }}" class="btn btn--info">link</a>
+              <a href="{{ post.paperurl }}" class="btn btn--info">link &nearr;</a>
             {% endif %}
           </p>
         {% elsif post.date %}
