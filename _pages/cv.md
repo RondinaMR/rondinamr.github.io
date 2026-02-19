@@ -11,14 +11,12 @@ redirect_from:
 
 (for a detailed CV, please contact me)
 
-Education
-======
+<h2>Education</h2>
 * (ongoing) Ph.D. in Control and Computer Engineering, Politecnico di Torino, 2026 (expected)
 * M.S. in Computer Engineering, Politecnico di Torino, 2022
 * B.S. in Computer Engineering, Politecnico di Torino, 2020
 
-Work Experience
-======
+<h2>Work Experience</h2>
 * (ongoing) University teaching assistant
   <ul class="archive__item-excerpt">
     <li>March 2023 - Present</li>
@@ -46,8 +44,7 @@ Work Experience
     <li>February 2012</li>
   </ul>
 
-Social, Political and Institutional Experience
-======
+<h2>Social, Political and Institutional Experience</h2>
 * Member of the National Council of University Students (CNSU, Consiglio Nazionale Studenti Universitari)
   <ul class="archive__item-excerpt">
     <li>October 2019 - September 2022</li>
@@ -67,20 +64,17 @@ Social, Political and Institutional Experience
     <li>Turin, Italy</li>
   </ul>
 
-Publications
-======
+<h2>Publications</h2>
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
+<h2>Talks</h2>
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
-======
+<h2>Teaching</h2>
   <ul>{% for post in site.teaching reversed%}
     {% include archive-single-teaching-cv.html %}
   {% endfor %}</ul>

@@ -66,6 +66,11 @@
   }
 }
 
+.archive__item-excerpt__publication {
+  @extend .archive__item-excerpt;
+  font-size: $type-size-7;
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;

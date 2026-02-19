@@ -12,9 +12,8 @@ I am a Ph.D student at [Nexa Center for Internet and Society](https://nexa.polit
 
 I am working with Professors [Juan Carlos De Martin](https://demartin.polito.it/) and [Antonio Vetrò](https://www.polito.it/en/staff?p=antonio.vetro).
 
-I study data fairness in the field of Responsible AI. My research focuses on exploring data documentation, data quality and data ethics. My overarching goal    is to investigate and address algorithmic discriminations.
+My research focuses on data fairness in the field of Responsible AI / AI Safety, with the overarching goal of investigating and addressing algorithmic discrimination in real-world systems. I study how data quality, data documentation and data ethics intersect to enable or prevent unfair outcomes in AI applications.
 
+I approach these challenges through empirical methods, conducting algorithmic audits and black-box testing of deployed systems across various domains, from automated decision-making systems to large language models. My work combines quantitative analysis of bias and fairness with the development of practical frameworks for measuring, documenting and improving datasets.
 
-(17/07/2025) New paper accepted: [An Empirical Investigation of Gender Stereotype Representation in Large Language Models: The Italian Case](https://rondinamr.github.io/publication/2025-09-15-an-empirical-investigation-of-gender-stereotype-representation-in-large-language-models-the-italian-case)
-
-(25/06/2025) Just published in the Journal of Data and Information Quality: [Experience: Bridging Data Measurement and Ethical Challenges with Extended Data Briefs](https://dl.acm.org/doi/10.1145/3726872)
+A central thread in my research is understanding how inadequate data practices (from poor documentation to imbalanced representation) can lead to discriminatory outcomes, particularly against marginalized and vulnerable groups. I investigate these issues both by testing existing systems and by developing tools that help practitioners build more accountable and equitable data-driven software.
