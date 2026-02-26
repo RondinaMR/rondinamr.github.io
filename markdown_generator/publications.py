@@ -69,13 +69,16 @@ for item in publications:
     md += "\nvenue: '" + html_escape(item["venue"]) + "'"
     
     if len(str(item["preprint_url"])) > 5:
-        md += "\npreprinturl: '" + item["preprint_url"] + "'"
+        md += "\npreprint_url: '" + item["preprint_url"] + "'"
+
+    if len(str(item["preprint_pdf"])) > 5:
+        md += "\npreprint_pdf: '" + item["preprint_pdf"] + "'"
 
     if len(str(item["paper_url"])) > 5:
-        md += "\npaperurl: '" + item["paper_url"] + "'"
+        md += "\npaper_url: '" + item["paper_url"] + "'"
     
     if len(str(item["pdf_url"])) > 5:
-        md += "\npdfurl: '" + item["pdf_url"] + "'"
+        md += "\npdf_url: '" + item["pdf_url"] + "'"
     
     md += "\ncitation: '" + html_escape(item["citation"]) + "'"
 

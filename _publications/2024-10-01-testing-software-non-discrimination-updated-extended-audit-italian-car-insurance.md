@@ -6,9 +6,9 @@ excerpt: '<b>Context</b>. As software systems become more integrated into societ
 date: 2024-10-01
 venue_excerpt: 'FAIEMA24'
 venue: '2nd International Conference on Frontiers of Artificial Intelligence, Ethics, and Multidisciplinary Applications; 1st - 2nd October 2024; Athens, Greece.'
-preprinturl: 'https://doi.org/10.48550/arXiv.2502.06439'
-paperurl: 'https://doi.org/10.1007/978-981-96-7945-4_15'
-pdfurl: 'https://rondinamr.github.io/files/06-rca_2-postprint_TestingSoftwareforNonDiscrimination.pdf'
+preprint_url: 'https://doi.org/10.48550/arXiv.2502.06439'
+paper_url: 'https://doi.org/10.1007/978-981-96-7945-4_15'
+pdf_url: 'https://rondinamr.github.io/files/06-rca_2-postprint_TestingSoftwareforNonDiscrimination.pdf'
 citation: 'Testing software for non-discrimination: an updated and extended audit in the Italian car insurance domain / Rondina, Marco; Vetro&apos;, Antonio; Coppola, Riccardo; Regragui, Oumaima; Fabris, Alessandro; Silvello, Gianmaria; Susto, Gian Antonio; De Martin, Juan Carlos. - (In corso di stampa). (Intervento presentato al convegno 2nd International Conference on Frontiers of Artificial Intelligence, Ethics, and Multidisciplinary Applications tenutosi a Athens (Greece) nel 1st - 2nd October 2024).'
 authors: 'Marco Rondina, Antonio Vetro’, Riccardo Coppola, Oumaima Regragui, Alessandro Fabris, Gianmaria Silvello, Gian Antonio Susto, Juan Carlos De Martin'
 ---

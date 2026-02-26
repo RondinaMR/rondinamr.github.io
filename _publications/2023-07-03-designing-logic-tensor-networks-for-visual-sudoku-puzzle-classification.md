@@ -6,8 +6,8 @@ excerpt: 'Given the increasing importance of the neurosymbolic (NeSy) approach i
 date: 2023-07-03
 venue_excerpt: 'NeSy23'
 venue: '17th International Workshop on Neural-Symbolic Learning and Reasoning (NeSy 2023)'
-paperurl: 'https://ceur-ws.org/Vol-3432/'
-pdfurl: 'https://ceur-ws.org/Vol-3432/paper19.pdf'
+paper_url: 'https://ceur-ws.org/Vol-3432/'
+pdf_url: 'https://ceur-ws.org/Vol-3432/paper19.pdf'
 citation: 'Designing Logic Tensor Networks for Visual Sudoku puzzle classification / Morra, Lia; Azzari, Alberto; Bergamasco, Letizia; Braga, Marco; Capogrosso, Luigi; Delrio, Federico; DI GIACOMO, Giuseppe; Eiraudo, Simone; Ghione, Giorgia; Giudice, Rocco; Koudounas, Alkis; Piano, Luca; REGE CAMBRIN, Daniele; Risso, Matteo; Rondina, Marco; Russo, ALESSANDRO SEBASTIAN; Russo, Marco; Taioli, Francesco; Vaiani, Lorenzo; Vercellino, Chiara. - ELETTRONICO. - 3432:(2023), pp. 223-232. (Intervento presentato al convegno 17th International Workshop on Neural-Symbolic Learning and Reasoning (NeSy 2023) tenutosi a Certosa di Pontignano, Siena (Italia) nel July 3-5, 2023).'
 authors: 'Lia Morra, Alberto Azzari, Letizia Bergamasco, Marco Braga, Luigi Capogrosso, Federico Delrio, Giuseppe Di Giacomo, Simone Eiraudo, Giorgia Ghione, Rocce Giudice, Alkis Koudounas, Luca Piano, Daniele Cambrin Rege, Matteo Risso, Marco Rondina, Sebastian Alessandro, Marco Russo, Francesco Taioli, lorenzo Vaiani, Chiara Vercellino'
 ---

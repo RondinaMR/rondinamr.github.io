@@ -56,17 +56,17 @@
           <p class="archive__item-excerpt__publication">
             {{ post.authors }}<br>
             Published in <i>{{ post.venue }}</i><br>
-            {% if post.preprinturl %}
-              <a href="{{ post.preprinturl }}" class="btn btn--info" target="_blank">preprint &nearr;</a>
+            {% if post.preprint_url %}
+              <a href="{{ post.preprint_url }}" class="btn btn--info" target="_blank">preprint &nearr;</a>
             {% endif %}
             {% if post.preprint_pdf %}
               <a href="{{ post.preprint_pdf }}" class="btn btn--info">preprint &#8595;</a>
             {% endif %}
-            {% if post.pdfurl %}
-              <a href="{{ post.pdfurl }}" class="btn btn--info">postprint &#8595;</a>
+            {% if post.pdf_url %}
+              <a href="{{ post.pdf_url }}" class="btn btn--info">postprint &#8595;</a>
             {% endif %}
-            {% if post.paperurl %}
-              <a href="{{ post.paperurl }}" class="btn btn--info" target="_blank">link &nearr;</a>
+            {% if post.paper_url %}
+              <a href="{{ post.paper_url }}" class="btn btn--info" target="_blank">link &nearr;</a>
             {% endif %}
           </p>
         {% elsif post.date %}
@@ -81,12 +81,12 @@
       {% endif %}
     {% endif %} -->
     
-    <!-- {% if post.citation and post.paperurl %}
-      <details class="archive__item-excerpt"><summary>Recommended citation</summary><p>{{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p></details>
+    <!-- {% if post.citation and post.paper_url %}
+      <details class="archive__item-excerpt"><summary>Recommended citation</summary><p>{{ post.citation }} <a href="{{ post.paper_url }}"><u>{{ post.paper_url }}</u></a></p></details>
     {% elsif post.citation %}
       <details><summary>Recommended citation</summary><p>{{ post.citation }}</p></details>
-    {% elsif post.paperurl %}
-        <p><a href=" {{ post.paperurl }} "><u>{{ post.paperurl }}</u></a></p>
+    {% elsif post.paper_url %}
+        <p><a href=" {{ post.paper_url }} "><u>{{ post.paper_url }}</u></a></p>
     {% endif %} -->
 
   </article>
