@@ -10,7 +10,7 @@
             "url_slug": "designing-logic-tensor-networks-for-visual-sudoku-puzzle-classification",
             "preprint_pdf": null,
             "preprint_url": null,
-            "pdf_url": "https://ceur-ws.org/Vol-3432/paper19.pdf",
+            "pdf_url": "http://rondinamr.github.io/files/08-dltn_1-postprint.pdf",
             "paper_url": "https://ceur-ws.org/Vol-3432/",
             "authors": "Lia Morra, Alberto Azzari, Letizia Bergamasco, Marco Braga, Luigi Capogrosso, Federico Delrio, Giuseppe Di Giacomo, Simone Eiraudo, Giorgia Ghione, Rocce Giudice, Alkis Koudounas, Luca Piano, Daniele Cambrin Rege, Matteo Risso, Marco Rondina, Sebastian Alessandro, Marco Russo, Francesco Taioli, lorenzo Vaiani, Chiara Vercellino",
             "image": ""
@@ -89,7 +89,6 @@
             "paper_url": "https://hdl.handle.net/11583/3001877",
             "authors": "Gioele Giachino, Marco Rondina, Antonio Vetrò, Riccardo Coppola, and Juan Carlos De Martin",
             "image": ""
-        }
-        
+        }        
     ]
 }
