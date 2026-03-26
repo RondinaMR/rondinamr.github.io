@@ -6,4 +6,5 @@ permalink: /talks/2026-03-11-192-mercoledi-nexa-internet-social-network-agenti-a
 venue: "Nexa Center for Internet & Society"
 date: 2026-03-11
 location: "Torino, Italy"
+link: https://nexa.polito.it/mercoledi-192/
 ---
