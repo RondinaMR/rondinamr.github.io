@@ -10,7 +10,7 @@ preprint_url: 'https://doi.org/10.48550/arXiv.2502.06341'
 paper_url: 'https://doi.org/10.1007/978-3-031-74630-7_10'
 pdf_url: 'https://rondinamr.github.io/files/03-1_fas-ds_postprint.pdf'
 citation: 'Rondina, M., Vinci, F., Vetrò, A., De Martin, J.C. (2025). Facial Analysis Systems and Down Syndrome. In: Meo, R., Silvestri, F. (eds) Machine Learning and Principles and Practice of Knowledge Discovery in Databases. ECML PKDD 2023. Communications in Computer and Information Science, vol 2133. Springer, Cham. https://doi.org/10.1007/978-3-031-74630-7_10'
-authors: 'Marco Rondina, Fabiana Vinci, Antonio Vetro&apos;, Juan Carlos De Martin'
+authors: '<b>Marco Rondina</b>, Fabiana Vinci, Antonio Vetro&apos;, Juan Carlos De Martin'
 ---
 
 <h2>Abstract</h2>

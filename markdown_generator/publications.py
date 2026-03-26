@@ -82,7 +82,7 @@ for item in publications:
     
     md += "\ncitation: '" + html_escape(item["citation"]) + "'"
 
-    md += "\nauthors: '" + html_escape(item["authors"]) + "'"
+    md += "\nauthors: '" + html_escape(item["authors"]).replace("Marco Rondina", "<b>Marco Rondina</b>") + "'"
     
     md += "\n---\n"
     

@@ -10,7 +10,7 @@ preprint_url: 'https://doi.org/10.48550/arXiv.2502.06439'
 paper_url: 'https://doi.org/10.1007/978-981-96-7945-4_15'
 pdf_url: 'https://rondinamr.github.io/files/06-rca_2-postprint_TestingSoftwareforNonDiscrimination.pdf'
 citation: 'Testing software for non-discrimination: an updated and extended audit in the Italian car insurance domain / Rondina, Marco; Vetro&apos;, Antonio; Coppola, Riccardo; Regragui, Oumaima; Fabris, Alessandro; Silvello, Gianmaria; Susto, Gian Antonio; De Martin, Juan Carlos. - (In corso di stampa). (Intervento presentato al convegno 2nd International Conference on Frontiers of Artificial Intelligence, Ethics, and Multidisciplinary Applications tenutosi a Athens (Greece) nel 1st - 2nd October 2024).'
-authors: 'Marco Rondina, Antonio Vetro’, Riccardo Coppola, Oumaima Regragui, Alessandro Fabris, Gianmaria Silvello, Gian Antonio Susto, Juan Carlos De Martin'
+authors: '<b>Marco Rondina</b>, Antonio Vetro’, Riccardo Coppola, Oumaima Regragui, Alessandro Fabris, Gianmaria Silvello, Gian Antonio Susto, Juan Carlos De Martin'
 ---
 <p align="center"><img src="../images/faiema_first_slide.png" alt="Testing software for non-discrimination: an updated and extended audit in the Italian car insurance domain"></p>
 

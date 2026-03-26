@@ -9,7 +9,7 @@ venue: 'ACM Journal of Data and Information Quality, Vol 17, Issue 2, Article 9,
 paper_url: 'https://doi.org/10.1145/3726872'
 pdf_url: 'https://rondinamr.github.io/files/02-edb_2-postprint_ExtendedDataBriefs.pdf'
 citation: 'Marco Rondina, Antonio Vetrò, Alessandro Fabris, Gianmaria Silvello, Gian Antonio Susto, Marco Torchiano, and Juan Carlos De Martin. 2025. Experience: Bridging Data Measurement and Ethical Challenges with Extended Data Briefs. J. Data and Information Quality (In press). https://doi.org/10.1145/3726872'
-authors: 'Marco Rondina, Antonio Vetrò, Alessandro Fabris, Gianmaria Silvello, Gian Antonio Susto, Marco Torchiano, Juan Carlos De Martin'
+authors: '<b>Marco Rondina</b>, Antonio Vetrò, Alessandro Fabris, Gianmaria Silvello, Gian Antonio Susto, Marco Torchiano, Juan Carlos De Martin'
 ---
 
 <h2>Abstract</h2>

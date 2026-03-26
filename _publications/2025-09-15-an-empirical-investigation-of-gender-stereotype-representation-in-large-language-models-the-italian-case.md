@@ -11,7 +11,7 @@ preprint_pdf: 'https://rondinamr.github.io/files/07-llmgsit_0-preprint.pdf'
 paper_url: 'https://hdl.handle.net/11583/3001877'
 pdf_url: 'https://rondinamr.github.io/files/07-llmgsit_1-postprint_ack.pdf'
 citation: 'Gioele Giachino, Marco Rondina, Antonio Vetrò, Riccardo Coppola, and Juan Carlos De Martin. 2025. An Empirical Investigation of Gender Stereotype Representation in Large Language Models: The Italian Case. Machine Learning and Principles and Practice of Knowledge Discovery in Databases. ECML PKDD 2025. https://hdl.handle.net/11583/3001877'
-authors: 'Gioele Giachino, Marco Rondina, Antonio Vetrò, Riccardo Coppola, and Juan Carlos De Martin'
+authors: 'Gioele Giachino, <b>Marco Rondina</b>, Antonio Vetrò, Riccardo Coppola, and Juan Carlos De Martin'
 ---
 
 <h2>Abstract</h2>
