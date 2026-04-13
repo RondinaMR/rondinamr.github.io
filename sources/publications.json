@@ -64,7 +64,7 @@
             "pub_date": "2025-03-29",
             "title": "Experience: Bridging Data Measurement and Ethical Challenges with Extended Data Briefs",
             "venue": "ACM Journal of Data and Information Quality, Vol 17, Issue 2, Article 9, June 2025.",
-            "venue_excerpt": "  JDIQ25",
+            "venue_excerpt": "JDIQ25",
             "excerpt": "To promote the responsible development and use of data-driven technologies –such as machine learning and artificial intelligence– principles of trustworthiness, accountability and fairness should be followed. The quality of the dataset on which these applications rely, is crucial to achieve compliance with the required ethical principles. Quantitative approaches to measure data quality are abundant in the literature and among practitioners, however they are not sufficient to cover all the principles and ethical challenges involved.<br><br> In this paper, we show that complementing data quality with measurable dimensions of data documentation and of data balance helps to cover a wider range of ethical challenges connected to the use of datasets in algorithms. A synthetic report of the metrics applied (the Extended Data Brief) and a set of Risk Labels for the Ethical Challenges provide a practical overview of the potential ethical harms due to data composition. We believe that the proposed data labelling scheme will enable practitioners to improve the overall quality of datasets and to build more responsible data-driven software systems.",
             "citation": "Marco Rondina, Antonio Vetrò, Alessandro Fabris, Gianmaria Silvello, Gian Antonio Susto, Marco Torchiano, and Juan Carlos De Martin. 2025. Experience: Bridging Data Measurement and Ethical Challenges with Extended Data Briefs. J. Data and Information Quality (In press). https://doi.org/10.1145/3726872",
             "url_slug": "experience-bridging-data-measurement-ethical-challenges-extended-data-briefs",
@@ -88,6 +88,21 @@
             "pdf_url": "https://rondinamr.github.io/files/07-llmgsit_1-postprint_ack.pdf",
             "paper_url": "https://hdl.handle.net/11583/3001877",
             "authors": "Gioele Giachino, Marco Rondina, Antonio Vetrò, Riccardo Coppola, and Juan Carlos De Martin",
+            "image": ""
+        },
+        {
+            "pub_date": "2026-04-13",
+            "title": "Quantifying Privacy Risks in Synthetic Data: A Study on Black-Box Membership Inference",
+            "venue": "29th International Conference on Fundamental Approaches to Software Engineering (FASE 2026). In press.",
+            "venue_excerpt": "FASE2026",
+            "excerpt": "The use of synthetic data has grown steadily in recent years, particularly to support AI research and data sharing. However, synthetic data remains vulnerable to privacy risks such as membership inference attacks (MIAs), where an attacker identifies whether a data record was in the original dataset, whose recent variants increasingly exploit overfitting in generative models to boost their accuracy. Privacy metrics have been proposed to assess the protection offered by synthetic datasets and the risk of information leakage. However, their ability to reflect actual risks of MIAs remains unexplored. This study empirically evaluates the trade-offs between utility and privacy in the generation of synthetic tabular data leveraging a variety of black-box MIAs, providing a novel assessment of privacy risks. Using state-of-the-art generative models, we repeatedly generated synthetic datasets, assessed their utility, measured vulnerability to black-box MIAs, and evaluated privacy using commonly used privacy metrics. Our analysis reveals that CTGAN and CTAB-GAN+ can mitigate the risks of membership disclosure without significantly compromising the utility of the data, while the other generators showed weaker privacy-utility trade-offs. However, the analysis of the privacy metrics suggests that their reliance on proximity to training data limits their ability to fully measure an attacker's exploitation capabilities. The results observed in this study highlight the potential applicability of the aforementioned generative models to privacy-sensitive domains, demonstrating their ability to balance utility and privacy even under the challenge of diverse black-box MIAs. Our analysis of privacy metrics provides empirical evidence on the real-world privacy risks of synthetic tabular data and call for developing new, empirically validated privacy metrics.",
+            "citation": "Giacomo Fantino, Marco Rondina, Antonio Vetrò and Juan Carlos De Martin. 2026. Quantifying Privacy Risks in Synthetic Data: A Study on Black-Box Membership Inference. Machine Learning and Principles and Practice of Knowledge Discovery in Databases. FASE 2026.",
+            "url_slug": "quantifying-privacy-risks-in-synthetic-data-a-study-on-black-box-membership-inference",
+            "preprint_pdf": "",
+            "preprint_url": "",
+            "pdf_url": "https://rondinamr.github.io/files/10-qdrsd_1-postprint.pdf",
+            "paper_url": "",
+            "authors": "Giacomo Fantino, Marco Rondina, Antonio Vetrò and Juan Carlos De Martin",
             "image": ""
         }        
     ]
