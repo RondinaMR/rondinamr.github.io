@@ -6,7 +6,7 @@ excerpt: 'The use of synthetic data has grown steadily in recent years, particul
 date: 2026-04-13
 venue_excerpt: 'FASE2026'
 venue: '29th International Conference on Fundamental Approaches to Software Engineering (FASE 2026). In press.'
-pdf_url: 'https://rondinamr.github.io/files/10-qdrsd_1-postprint.pdf'
+pdf_url: 'https://rondinamr.github.io/files/10-qprsd_1-postprint.pdf'
 citation: 'Giacomo Fantino, Marco Rondina, Antonio Vetrò and Juan Carlos De Martin. 2026. Quantifying Privacy Risks in Synthetic Data: A Study on Black-Box Membership Inference. Machine Learning and Principles and Practice of Knowledge Discovery in Databases. FASE 2026.'
 authors: 'Giacomo Fantino, <b>Marco Rondina</b>, Antonio Vetrò and Juan Carlos De Martin'
 ---
