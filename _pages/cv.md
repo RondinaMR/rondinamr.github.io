@@ -22,7 +22,7 @@ redirect_from:
     <li>March 2023 - Present</li>
     <li>Politecnico di Torino</li>
   </ul>
-* <a href="https://www.weizenbaum-institut.de/en/portrait/p/marco-rondina/" target="_blank">Guest Researcher</a>
+* Guest Researcher
   <ul class="archive__item-excerpt">
     <li>March 2025 - May 2025</li>
     <li>Weizenbaum Institute - Technische Universität Berlin - <a href="https://www.weizenbaum-institut.de/en/research/digital-technologies-in-society/data-algorithmic-systems-and-ethics/" target="_blank">Data, Algorithmic Systems and Ethics</a></li>
