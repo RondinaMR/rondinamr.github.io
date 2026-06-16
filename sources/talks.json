@@ -107,6 +107,15 @@
           "date": "2026-03-11",
           "location": "Torino, Italy",
           "talk_url": "https://nexa.polito.it/mercoledi-192/"
+        },
+        {
+          "title": "Intelligenza artificiale e guerra: tutto comincia nelle nostre univeristà? - I saperi maledetti - Radio Blackout",
+          "type": "Interview",
+          "url_slug": "intelligenza-artificiale-guerra-tutto-comincia-nelle-nostre-universita-i-saperi-maledetti-radio-blackout",
+          "venue": "Radio Blackout",
+          "date": "2026-05-21",
+          "location": "",
+          "talk_url": "https://radioblackout.org/podcast/intelligenza-artificiale-e-guerra-tutto-comincia-nelle-nostre-universita"
         }
     ]
 }
