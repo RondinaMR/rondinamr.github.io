@@ -104,6 +104,21 @@
             "paper_url": "https://doi.org/10.1007/978-3-032-22774-4_5",
             "authors": "Giacomo Fantino, Marco Rondina, Antonio Vetrò and Juan Carlos De Martin",
             "image": ""
-        }        
+        } ,
+        {
+            "pub_date": "2026-07-05",
+            "title": "Analysis Of Linguistic Stereotypes in Single and Multi-Agent Generative AI Architectures",
+            "venue": "ACM International Conference on the Foundations of Software Engineering (FSE) 2026 - 2nd Intersectionality and Software Engineering Workshop. In press.",
+            "venue_excerpt": "Intersectionality@FSE26",
+            "excerpt": "Many works in the literature show that LLM outputs exhibit discriminatory behaviour, triggering stereotype-based inferences based on the dialect in which the inputs are written. This bias has been shown to be particularly pronounced when the same inputs are provided to LLMs in Standard American English (SAE) and African-American English (AAE). In this paper, we replicate existing analyses of dialect-sensitive stereotype generation in LLM outputs and investigate the effects of mitigation strategies, including prompt engineering (role-based and Chain-Of-Thought prompting) and multi-agent architectures composed of generate-critique-revise models. We define eight prompt templates to analyse different ways in which dialect bias can manifest, such as suggested names, jobs, and adjectives for SAE or AAE speakers. We use an LLM-as-judge approach to evaluate the bias in the results, using a 1-10 scale. Our results show that stereotype-bearing differences emerge between SAE- and AAE-related outputs across all template categories, with the strongest effects observed in adjective and job attribution. Baseline disparities vary substantially by model, with the largest SAE-AAE differential observed in Claude Haiku and the smallest in Phi-4 Mini. Chain-Of-Thought prompting proved to be an effective mitigation strategy for Claude Haiku, whereas the use of a multi-agent architecture ensured consistent mitigation across all the models. These findings suggest that for intersectionality-informed software engineering, fairness evaluation should include model-specific validation of mitigation strategies, and workflow-level controls (e.g., agentic architectures involving critique models) in high-impact LLM deployments. The current results are exploratory in nature and limited in scope, but can lead to extensions and replications by increasing the dataset size and applying the procedure to different languages or dialects.",
+            "citation": "M. Ullasci, M. Rondina, R. Coppola, et al. 2026. Analysis Of Linguistic Stereotypes in Single and Multi-Agent Generative AI Architectures. FSE 2026. https://hdl.handle.net/11583/3009911",
+            "url_slug": "analysis-of-linguistic-stereotypes-in-single-and-multi-agent-generative-ai-architectures",
+            "preprint_pdf": "https://rondinamr.github.io/files/12-alsgai_0-preprint.pdf",
+            "preprint_url": "https://arxiv.org/abs/2603.18729",
+            "pdf_url": "https://rondinamr.github.io/files/12-alsgai_1-postprint.pdf",
+            "paper_url": "https://hdl.handle.net/11583/3009911",
+            "authors": "Martina Ullasci, Marco Rondina, Riccardo Coppola, Flavio Giobergia, Riccardo Bellanca, Gabriele Mancari Pasi, Luca Prato, Federico Spinoso, Silvia Tagliente",
+            "image": ""
+        }       
     ]
 }
