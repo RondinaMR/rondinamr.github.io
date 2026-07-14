@@ -19,7 +19,7 @@ author_profile: true
 <p class="archive__item-excerpt__publication">
   <b>Icon legend</b>:
   <i class="fa fa-file-pdf-o"></i> PDF &nbsp;
-  <i class="ai ai-arxiv"></i> arXiv &nbsp;
+  <i class="ai ai-arxiv"></i> arXiv (preprint, not peer-reviewed) &nbsp;
   <i class="ai ai-doi"></i> DOI &nbsp;
   <i class="ai ai-archive"></i> Institutional repository (PoliTO IRIS) &nbsp;
   <i class="ai ai-zenodo"></i> Zenodo (supplementary material) &nbsp;
