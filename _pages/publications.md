@@ -20,7 +20,7 @@ author_profile: true
   <b>Icon legend</b>:
   <i class="fa fa-file-pdf-o"></i> PDF &nbsp;
   <i class="ai ai-arxiv"></i> arXiv (preprint, not peer-reviewed) &nbsp;
-  <i class="ai ai-doi"></i> Digital Object Identifier &nbsp;
+  <i class="ai ai-doi"></i> Digital Object Identifier (version of record, peer-reviewed) &nbsp;
   <i class="ai ai-archive"></i> Institutional repository (PoliTO IRIS) &nbsp;
   <i class="ai ai-zenodo"></i> Zenodo (supplementary material) &nbsp;
   <i class="fa-brands fa-git-alt"></i> Code repository &nbsp;
