@@ -1,0 +1,17 @@
+---
+title: "Gender Bias in Generative AI-assisted Recruitment Processes"
+collection: publications
+permalink: /publication/2026-03-17-gender-bias-in-generative-ai-assisted-recruitment-processes
+excerpt: 'In recent years, generative artificial intelligence (GenAI) systems have assumed increasingly crucial roles in selection processes, personnel recruitment and analysis of candidates’ profiles. However, the employment of large language models (LLMs) risks reproducing, and in some cases amplifying, gender stereotypes and bias already present in the labour market. The objective of this paper is to evaluate and measure this phenomenon, analysing how a state-of-the-art generative model (GPT-5) suggests occupations based on gender and work experience background, focusing on under-35-year-old Italian graduates. The model has been prompted to suggest jobs to 24 simulated candidate profiles, which are balanced in terms of gender, age, experience and professional field. Although no significant differences emerged in job titles and industry, gendered linguistic patterns emerged in the adjectives attributed to female and male candidates, indicating a tendency of the model to associate women with emotional and empathetic traits, while men with strategic and analytical ones. The research raises an ethical question regarding the use of these models in sensitive processes, highlighting the need for transparency and fairness in future digital labour markets.'
+date: 2026-03-17
+venue_excerpt: 'WFSS@SANER26'
+venue: '33rd IEEE International Conference on Software Analysis, Evolution and Reengineering - 2nd International Workshop on Fairness in Software Systems.'
+preprint_url: 'https://arxiv.org/abs/2603.11736'
+pdf_url: 'https://rondinamr.github.io/files/09-gbairp_1-postprint.pdf'
+citation: 'Martina Ullasci, Marco Rondina and Riccardo Coppola. 2026. Gender Bias in Generative AI-assisted Recruitment Processes. 33rd IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER 2026) - 2nd International Workshop on Fairness in Software Systems. In press.'
+authors: 'Martina Ullasci, <b>Marco Rondina</b> and Riccardo Coppola'
+---
+
+<h2>Abstract</h2>
+
+In recent years, generative artificial intelligence (GenAI) systems have assumed increasingly crucial roles in selection processes, personnel recruitment and analysis of candidates’ profiles. However, the employment of large language models (LLMs) risks reproducing, and in some cases amplifying, gender stereotypes and bias already present in the labour market. The objective of this paper is to evaluate and measure this phenomenon, analysing how a state-of-the-art generative model (GPT-5) suggests occupations based on gender and work experience background, focusing on under-35-year-old Italian graduates. The model has been prompted to suggest jobs to 24 simulated candidate profiles, which are balanced in terms of gender, age, experience and professional field. Although no significant differences emerged in job titles and industry, gendered linguistic patterns emerged in the adjectives attributed to female and male candidates, indicating a tendency of the model to associate women with emotional and empathetic traits, while men with strategic and analytical ones. The research raises an ethical question regarding the use of these models in sensitive processes, highlighting the need for transparency and fairness in future digital labour markets.
