@@ -8,8 +8,8 @@ venue_excerpt: 'WFSS@SANER26'
 venue: '33rd IEEE International Conference on Software Analysis, Evolution and Reengineering - 2nd International Workshop on Fairness in Software Systems.'
 preprint_url: 'https://arxiv.org/abs/2603.11736'
 pdf_url: 'https://rondinamr.github.io/files/09-gbairp_1-postprint.pdf'
-citation: 'Martina Ullasci, Marco Rondina and Riccardo Coppola. 2026. Gender Bias in Generative AI-assisted Recruitment Processes. 33rd IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER 2026) - 2nd International Workshop on Fairness in Software Systems. In press.'
-authors: 'Martina Ullasci, <b>Marco Rondina</b> and Riccardo Coppola'
+citation: 'Martina Ullasci, Marco Rondina, Riccardo Coppola and Antonio Vetrò. 2026. Gender Bias in Generative AI-assisted Recruitment Processes. 33rd IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER 2026) - 2nd International Workshop on Fairness in Software Systems. In press.'
+authors: 'Martina Ullasci, <b>Marco Rondina</b>, Riccardo Coppola and Antonio Vetrò'
 ---
 
 <h2>Abstract</h2>
