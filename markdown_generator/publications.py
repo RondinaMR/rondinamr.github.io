@@ -68,6 +68,27 @@ for item in publications:
     
     md += "\nvenue: '" + html_escape(item["venue"]) + "'"
     
+    if len(str(item["url_arxiv"])) > 5:
+        md += "\nurl_arxiv: '" + item["url_arxiv"] + "'"
+
+    if len(str(item["url_doi"])) > 5:
+        md += "\nurl_doi: '" + item["url_doi"] + "'"
+
+    if len(str(item["url_politoiris"])) > 5:
+        md += "\nurl_politoiris: '" + item["url_politoiris"] + "'"
+
+    if len(str(item["url_pdf"])) > 5:
+        md += "\nurl_pdf: '" + item["url_pdf"] + "'"
+
+    if len(str(item["url_git"])) > 5:
+        md += "\nurl_git: '" + item["url_git"] + "'"
+
+    if len(str(item["url_zenodo"])) > 5:
+        md += "\nurl_zenodo: '" + item["url_zenodo"] + "'"
+
+    if len(str(item["url_other"])) > 5:
+        md += "\nurl_other: '" + item["url_other"] + "'"
+
     if len(str(item["preprint_url"])) > 5:
         md += "\npreprint_url: '" + item["preprint_url"] + "'"
 
@@ -77,9 +98,6 @@ for item in publications:
     if len(str(item["paper_url"])) > 5:
         md += "\npaper_url: '" + item["paper_url"] + "'"
     
-    if len(str(item["pdf_url"])) > 5:
-        md += "\npdf_url: '" + item["pdf_url"] + "'"
-    
     md += "\ncitation: '" + html_escape(item["citation"]) + "'"
 
     md += "\nauthors: '" + html_escape(item["authors"]).replace("Marco Rondina", "<b>Marco Rondina</b>") + "'"
@@ -87,8 +105,8 @@ for item in publications:
     md += "\n---\n"
     
     ## Markdown description for individual page
-    # if len(str(item["pdf_url"])) > 5:
-    #     md += "\n\n<a href='" + item["pdf_url"] + "'>Download paper here</a>\n" 
+    # if len(str(item["url_pdf"])) > 5:
+    #     md += "\n\n<a href='" + item["url_pdf"] + "'>Download paper here</a>\n" 
     # elif len(str(item["paper_url"])) > 5:
     #     md += "\n\n<a href='" + item["paper_url"] + "'>Download paper here</a>\n" 
 

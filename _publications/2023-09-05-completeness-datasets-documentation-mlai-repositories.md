@@ -6,9 +6,11 @@ excerpt: 'ML/AI is the field of computer science and computer engineering that a
 date: 2023-09-05
 venue_excerpt: 'EPIA23'
 venue: '22nd Portuguese Conference on Artificial Intelligence (EPIA 2023)'
-preprint_url: 'https://doi.org/10.48550/arXiv.2503.13463'
-paper_url: 'https://doi.org/10.1007/978-3-031-49008-8_7'
-pdf_url: 'http://rondinamr.github.io/files/01-1_dts_postprint.pdf'
+url_arxiv: 'https://arxiv.org/abs/2503.13463'
+url_doi: 'https://doi.org/10.1007/978-3-031-49008-8_7'
+url_politoiris: 'https://hdl.handle.net/11583/2981538'
+url_pdf: 'http://rondinamr.github.io/files/01-1_dts_postprint.pdf'
+url_zenodo: 'https://doi.org/10.5281/zenodo.12191545'
 citation: 'Completeness of Datasets Documentation on ML/AI Repositories: An Empirical Investigation / Rondina, Marco; Vetro&apos;, Antonio; De Martin, Juan Carlos. - 14115:(2023), pp. 79-91. (Intervento presentato al convegno 22nd Portuguese Conference on Artificial Intelligence tenutosi a Horta, Faial Island, Azores nel September 5 – September 8, 2023) [10.1007/978-3-031-49008-8_7].'
 authors: '<b>Marco Rondina</b>, Antonio Vetro’, Juan Carlos De Martin'
 ---

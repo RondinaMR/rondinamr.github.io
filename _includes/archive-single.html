@@ -56,14 +56,32 @@
           <p class="archive__item-excerpt__publication">
             {{ post.authors }}<br>
             Published in <i>{{ post.venue }}</i><br>
+            {% if post.url_pdf %}
+              <a href="{{ post.url_pdf }}" class="btn btn--info" target="_blank"><i class="fa fa-file-pdf-o fa-2x"></i></a>
+            {% endif %}
+            {% if post.url_politoiris %}
+              <a href="{{ post.url_politoiris }}" class="btn btn--info" target="_blank"><i class="ai ai-archive ai-2x"></i></a>
+            {% endif %}
+            {% if post.url_doi %}
+              <a href="{{ post.url_doi }}" class="btn btn--info" target="_blank"><i class="ai ai-doi ai-2x"></i></a>
+            {% endif %}
+            {% if post.url_arxiv %}
+              <a href="{{ post.url_arxiv }}" class="btn btn--info" target="_blank"><i class="ai ai-arxiv ai-2x"></i></a>
+            {% endif %}
+            {% if post.url_git %}
+              <a href="{{ post.url_git }}" class="btn btn--info" target="_blank"><i class="fa-brands fa-git-alt fa-2x"></i></a>
+            {% endif %}
+            {% if post.url_zenodo %}
+              <a href="{{ post.url_zenodo }}" class="btn btn--info" target="_blank"><i class="ai ai-zenodo ai-2x"></i></a>
+            {% endif %}
+            {% if post.url_other %}
+              <a href="{{ post.url_other }}" class="btn btn--info" target="_blank"><i class="fa fa-link fa-2x"></i></a>
+            {% endif %}
             {% if post.preprint_url %}
               <a href="{{ post.preprint_url }}" class="btn btn--info" target="_blank">preprint &nearr;</a>
             {% endif %}
             {% if post.preprint_pdf %}
-              <a href="{{ post.preprint_pdf }}" class="btn btn--info">preprint &#8595;</a>
-            {% endif %}
-            {% if post.pdf_url %}
-              <a href="{{ post.pdf_url }}" class="btn btn--info">postprint &#8595;</a>
+              <a href="{{ post.preprint_pdf }}" class="btn btn--info" target="_blank">preprint &#8595;</a>
             {% endif %}
             {% if post.paper_url %}
               <a href="{{ post.paper_url }}" class="btn btn--info" target="_blank">link &nearr;</a>

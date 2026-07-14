@@ -4,10 +4,11 @@ collection: publications
 permalink: /publication/2026-04-13-quantifying-privacy-risks-in-synthetic-data-a-study-on-black-box-membership-inference
 excerpt: 'The use of synthetic data has grown steadily in recent years, particularly to support AI research and data sharing. However, synthetic data remains vulnerable to privacy risks such as membership inference attacks (MIAs), where an attacker identifies whether a data record was in the original dataset, whose recent variants increasingly exploit overfitting in generative models to boost their accuracy. Privacy metrics have been proposed to assess the protection offered by synthetic datasets and the risk of information leakage. However, their ability to reflect actual risks of MIAs remains unexplored. This study empirically evaluates the trade-offs between utility and privacy in the generation of synthetic tabular data leveraging a variety of black-box MIAs, providing a novel assessment of privacy risks. Using state-of-the-art generative models, we repeatedly generated synthetic datasets, assessed their utility, measured vulnerability to black-box MIAs, and evaluated privacy using commonly used privacy metrics. Our analysis reveals that CTGAN and CTAB-GAN+ can mitigate the risks of membership disclosure without significantly compromising the utility of the data, while the other generators showed weaker privacy-utility trade-offs. However, the analysis of the privacy metrics suggests that their reliance on proximity to training data limits their ability to fully measure an attacker&apos;s exploitation capabilities. The results observed in this study highlight the potential applicability of the aforementioned generative models to privacy-sensitive domains, demonstrating their ability to balance utility and privacy even under the challenge of diverse black-box MIAs. Our analysis of privacy metrics provides empirical evidence on the real-world privacy risks of synthetic tabular data and call for developing new, empirically validated privacy metrics.'
 date: 2026-04-13
-venue_excerpt: 'FASE2026'
+venue_excerpt: 'FASE26'
 venue: '29th International Conference on Fundamental Approaches to Software Engineering (FASE 2026). In press.'
-paper_url: 'https://doi.org/10.1007/978-3-032-22774-4_5'
-pdf_url: 'https://rondinamr.github.io/files/10-qprsd_1-postprint.pdf'
+url_doi: 'https://doi.org/10.1007/978-3-032-22774-4_5'
+url_politoiris: 'https://hdl.handle.net/11583/3008359'
+url_pdf: 'https://rondinamr.github.io/files/10-qprsd_1-postprint.pdf'
 citation: 'Giacomo Fantino, Marco Rondina, Antonio Vetrò and Juan Carlos De Martin. 2026. Quantifying Privacy Risks in Synthetic Data: A Study on Black-Box Membership Inference. Machine Learning and Principles and Practice of Knowledge Discovery in Databases. FASE 2026.'
 authors: 'Giacomo Fantino, <b>Marco Rondina</b>, Antonio Vetrò and Juan Carlos De Martin'
 ---

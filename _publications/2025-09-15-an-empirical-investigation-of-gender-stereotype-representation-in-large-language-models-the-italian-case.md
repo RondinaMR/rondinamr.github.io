@@ -6,10 +6,10 @@ excerpt: 'The increasing use of Large Language Models (LLMs) in a large variety 
 date: 2025-09-15
 venue_excerpt: 'BIAS25@ECMLPKDD25'
 venue: 'European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD 2025) - 5th Workshop on Bias and Fairness in AI (BIAS25).'
-preprint_url: 'https://doi.org/10.48550/arXiv.2507.19156'
-preprint_pdf: 'https://rondinamr.github.io/files/07-llmgsit_0-preprint.pdf'
-paper_url: 'https://doi.org/10.1007/978-3-032-19096-3_15'
-pdf_url: 'https://rondinamr.github.io/files/07-llmgsit_1-postprint_ack.pdf'
+url_arxiv: 'https://arxiv.org/abs/2507.19156'
+url_doi: 'https://doi.org/10.1007/978-3-032-19096-3_15'
+url_politoiris: 'https://hdl.handle.net/11583/3001877'
+url_pdf: 'https://rondinamr.github.io/files/07-llmgsit_1-postprint_ack.pdf'
 citation: 'Gioele Giachino, Marco Rondina, Antonio Vetrò, Riccardo Coppola, and Juan Carlos De Martin. 2025. An Empirical Investigation of Gender Stereotype Representation in Large Language Models: The Italian Case. Machine Learning and Principles and Practice of Knowledge Discovery in Databases. ECML PKDD 2025. https://doi.org/10.1007/978-3-032-19096-3_15'
 authors: 'Gioele Giachino, <b>Marco Rondina</b>, Antonio Vetrò, Riccardo Coppola, and Juan Carlos De Martin'
 ---

@@ -6,8 +6,9 @@ excerpt: 'In recent years, generative artificial intelligence (GenAI) systems ha
 date: 2026-03-17
 venue_excerpt: 'WFSS@SANER26'
 venue: '33rd IEEE International Conference on Software Analysis, Evolution and Reengineering - 2nd International Workshop on Fairness in Software Systems.'
-preprint_url: 'https://arxiv.org/abs/2603.11736'
-pdf_url: 'https://rondinamr.github.io/files/09-gbairp_1-postprint.pdf'
+url_arxiv: 'https://arxiv.org/abs/2603.11736'
+url_politoiris: 'https://hdl.handle.net/11583/3008997'
+url_pdf: 'https://rondinamr.github.io/files/09-gbairp_1-postprint.pdf'
 citation: 'Martina Ullasci, Marco Rondina, Riccardo Coppola and Antonio Vetrò. 2026. Gender Bias in Generative AI-assisted Recruitment Processes. 33rd IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER 2026) - 2nd International Workshop on Fairness in Software Systems. In press.'
 authors: 'Martina Ullasci, <b>Marco Rondina</b>, Riccardo Coppola and Antonio Vetrò'
 ---

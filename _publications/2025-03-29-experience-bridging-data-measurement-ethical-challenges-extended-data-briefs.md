@@ -6,8 +6,10 @@ excerpt: 'To promote the responsible development and use of data-driven technolo
 date: 2025-03-29
 venue_excerpt: 'JDIQ25'
 venue: 'ACM Journal of Data and Information Quality, Vol 17, Issue 2, Article 9, June 2025.'
-paper_url: 'https://doi.org/10.1145/3726872'
-pdf_url: 'https://rondinamr.github.io/files/02-edb_2-postprint_ExtendedDataBriefs.pdf'
+url_doi: 'https://doi.org/10.1145/3726872'
+url_politoiris: 'https://hdl.handle.net/11583/2999294'
+url_pdf: 'https://rondinamr.github.io/files/02-edb_2-postprint_ExtendedDataBriefs.pdf'
+url_git: 'https://github.com/RondinaMR/data-qbd-framework'
 citation: 'Marco Rondina, Antonio Vetrò, Alessandro Fabris, Gianmaria Silvello, Gian Antonio Susto, Marco Torchiano, and Juan Carlos De Martin. 2025. Experience: Bridging Data Measurement and Ethical Challenges with Extended Data Briefs. J. Data and Information Quality (In press). https://doi.org/10.1145/3726872'
 authors: '<b>Marco Rondina</b>, Antonio Vetrò, Alessandro Fabris, Gianmaria Silvello, Gian Antonio Susto, Marco Torchiano, Juan Carlos De Martin'
 ---
