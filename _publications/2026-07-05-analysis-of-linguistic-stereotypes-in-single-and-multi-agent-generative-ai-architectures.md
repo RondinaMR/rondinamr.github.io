@@ -7,6 +7,7 @@ date: 2026-07-05
 venue_excerpt: 'Intersectionality@FSE26'
 venue: 'ACM International Conference on the Foundations of Software Engineering (FSE) 2026 - 2nd Intersectionality and Software Engineering Workshop.'
 url_arxiv: 'https://arxiv.org/abs/2603.18729'
+url_doi: 'https://doi.org/10.1145/3803437.3805544'
 url_politoiris: 'https://hdl.handle.net/11583/3009911'
 url_pdf: 'https://rondinamr.github.io/files/12-alsgai_1-postprint.pdf'
 citation: 'M. Ullasci, M. Rondina, R. Coppola, et al. 2026. Analysis Of Linguistic Stereotypes in Single and Multi-Agent Generative AI Architectures. ACM International Conference on the Foundations of Software Engineering (FSE) 2026 - 2nd Intersectionality and Software Engineering Workshop. In press. https://hdl.handle.net/11583/3009911'

@@ -7,6 +7,7 @@ date: 2026-07-05
 venue_excerpt: 'Intersectionality@FSE26'
 venue: 'ACM International Conference on the Foundations of Software Engineering (FSE) 2026 - 2nd Intersectionality and Software Engineering Workshop. In press.'
 url_arxiv: 'https://arxiv.org/abs/2603.11736'
+url_doi: 'https://doi.org/10.1145/3803437.3805541'
 url_politoiris: 'https://hdl.handle.net/11583/3009913'
 url_pdf: 'https://rondinamr.github.io/files/11-gbpsr_1-postprint.pdf'
 url_git: 'https://github.com/RondinaMR/Gender-bias-and-propagation-of-stereotypes-in-GenAI-assisted-recruitment'
