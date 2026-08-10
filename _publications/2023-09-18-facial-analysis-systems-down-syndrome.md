@@ -6,6 +6,7 @@ excerpt: 'The ethical, social and legal issues surrounding facial analysis techn
 date: 2023-09-18
 venue_excerpt: 'BIAS23@ECMLPKDD23'
 venue: 'European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD 2023) - 3rd Workshop on Bias and Fairness in AI (BIAS23).'
+type: 'conference'
 url_arxiv: 'https://arxiv.org/abs/2502.06341'
 url_doi: 'https://doi.org/10.1007/978-3-031-74630-7_10'
 url_politoiris: 'https://hdl.handle.net/11583/2982543'

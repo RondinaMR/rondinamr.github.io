@@ -6,6 +6,7 @@ excerpt: 'The use of synthetic data has grown steadily in recent years, particul
 date: 2026-04-13
 venue_excerpt: 'FASE26'
 venue: '29th International Conference on Fundamental Approaches to Software Engineering (FASE 2026). In press.'
+type: 'conference'
 url_doi: 'https://doi.org/10.1007/978-3-032-22774-4_5'
 url_politoiris: 'https://hdl.handle.net/11583/3008359'
 url_pdf: 'https://rondinamr.github.io/files/10-qprsd_1-postprint.pdf'

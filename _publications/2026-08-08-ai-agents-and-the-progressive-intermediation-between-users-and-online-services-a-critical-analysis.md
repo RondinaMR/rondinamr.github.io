@@ -6,6 +6,7 @@ excerpt: 'The disruptive potential of AI agents is becoming increasingly evident
 date: 2026-08-08
 venue_excerpt: 'Future Internet'
 venue: 'Future Internet'
+type: 'journal'
 url_doi: 'https://doi.org/10.3390/fi18080419'
 url_politoiris: 'https://hdl.handle.net/11583/3014287'
 url_pdf: 'https://rondinamr.github.io/files/14-piaia_2-vorecord.pdf'

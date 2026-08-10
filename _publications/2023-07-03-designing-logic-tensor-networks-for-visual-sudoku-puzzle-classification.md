@@ -6,6 +6,7 @@ excerpt: 'Given the increasing importance of the neurosymbolic (NeSy) approach i
 date: 2023-07-03
 venue_excerpt: 'NeSy23'
 venue: '17th International Workshop on Neural-Symbolic Learning and Reasoning (NeSy 2023)'
+type: 'conference'
 url_politoiris: 'https://hdl.handle.net/11583/2978475'
 url_pdf: 'http://rondinamr.github.io/files/08-dltn_1-postprint.pdf'
 url_other: 'https://ceur-ws.org/Vol-3432/'

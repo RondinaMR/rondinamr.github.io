@@ -32,6 +32,11 @@
         {{ title }}
       {% else %}
         {% if post.collection=='publications' %}
+          {% if post.type=='journal' %}
+            <i class="fa-regular fa-newspaper"></i>
+          {% elsif post.type=='conference' %}
+            <i class="fa-solid fa-person-chalkboard"></i>
+          {% endif %}
           {% if post.venue_excerpt %}
             <span class="archive__item-venue">{{ post.venue_excerpt }}</span>
           {% endif %}

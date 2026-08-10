@@ -6,6 +6,7 @@ excerpt: 'To promote the responsible development and use of data-driven technolo
 date: 2025-03-29
 venue_excerpt: 'JDIQ'
 venue: 'ACM Journal of Data and Information Quality, Vol 17, Issue 2, Article 9, June 2025.'
+type: 'journal'
 url_doi: 'https://doi.org/10.1145/3726872'
 url_politoiris: 'https://hdl.handle.net/11583/2999294'
 url_pdf: 'https://rondinamr.github.io/files/02-edb_2-postprint_ExtendedDataBriefs.pdf'

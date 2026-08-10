@@ -67,6 +67,8 @@ for item in publications:
     md += "\nvenue_excerpt: '" + html_escape(item["venue_excerpt"]) + "'"
     
     md += "\nvenue: '" + html_escape(item["venue"]) + "'"
+
+    md += "\ntype: '" + html_escape(item["type"]) + "'"
     
     if len(str(item["url_arxiv"])) > 5:
         md += "\nurl_arxiv: '" + item["url_arxiv"] + "'"

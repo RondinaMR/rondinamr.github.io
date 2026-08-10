@@ -6,6 +6,7 @@ excerpt: 'Many works in the literature show that LLM outputs exhibit discriminat
 date: 2026-07-05
 venue_excerpt: 'Intersectionality@FSE26'
 venue: 'ACM International Conference on the Foundations of Software Engineering (FSE) 2026 - 2nd Intersectionality and Software Engineering Workshop.'
+type: 'conference'
 url_arxiv: 'https://arxiv.org/abs/2603.18729'
 url_doi: 'https://doi.org/10.1145/3803437.3805544'
 url_politoiris: 'https://hdl.handle.net/11583/3009911'

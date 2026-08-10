@@ -17,7 +17,11 @@ author_profile: true
 
 ---
 <p class="archive__item-excerpt__publication">
-  <b>Icon legend</b>:
+  <b>Item type</b>: 
+  <i class="fa-regular fa-newspaper"></i> Journal article &nbsp;
+  <i class="fa-solid fa-person-chalkboard"></i> Conference or workshop article
+  <br/>
+  <b>Link type</b>:
   <i class="fa fa-file-pdf-o"></i> PDF &nbsp;
   <i class="ai ai-arxiv"></i> arXiv (preprint, not peer-reviewed) &nbsp;
   <i class="ai ai-doi"></i> Digital Object Identifier (version of record, peer-reviewed) &nbsp;
