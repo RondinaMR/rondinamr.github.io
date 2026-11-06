@@ -12,7 +12,7 @@ url_politoiris: 'https://hdl.handle.net/11583/3015698'
 url_pdf: 'https://rondinamr.github.io/files/13-hngd_1-postprint.pdf'
 paper_url: 'https://dl.acm.org/doi/10.1145/3794786.3830781'
 citation: 'X. Shkajoti, M. Ullasci, M. Rondina, R. Coppola, A. Vetrò, and Luca Calò. 2026. Auditing Bias in AI-Based Hiring Systems: A Fairness Analysis of Nationality and Gender Discrimination. In GoodIT &apos;26: Proceedings of the 2026 International Conference on Information Technology for Social Good. Pages 411 - 419. https://doi.org/10.1145/3794786.3830781'
-authors: 'Xhoana Shkajoti, Martina Ullasci, <b>Marco Rondina</b>, Riccardo Coppola, Antonio Vetrò, Luca Calò'
+authors: 'Martina Ullasci, <b>Marco Rondina</b>, Riccardo Coppola, Flavio Giobergia, Adriano De Cesare, Matteo Di Gregorio, Giovanni Giordano, Anna Lisa Maddaloni, and Silvia Mantione1'
 ---
 
 <h2>Abstract</h2>
