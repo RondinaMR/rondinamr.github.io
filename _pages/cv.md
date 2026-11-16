@@ -12,11 +12,16 @@ redirect_from:
 (for a detailed CV, please contact me)
 
 <h2>Education</h2>
-* (ongoing) Ph.D. in Control and Computer Engineering, Politecnico di Torino, 2026 (expected)
+* Ph.D. in Control and Computer Engineering, Politecnico di Torino, 2026
 * M.S. in Computer Engineering, Politecnico di Torino, 2022
 * B.S. in Computer Engineering, Politecnico di Torino, 2020
 
 <h2>Work Experience</h2>
+* (ongoing) Postdoctoral researcher
+  <ul class="archive__item-excerpt">
+    <li>November 2026 - Present</li>
+    <li>Politecnico di Torino</li>
+  </ul>
 * (ongoing) University teaching assistant
   <ul class="archive__item-excerpt">
     <li>March 2023 - Present</li>
